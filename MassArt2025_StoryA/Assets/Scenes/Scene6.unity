@@ -486,14 +486,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.554717, g: 0.554717, b: 0.554717, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: -3013960170447362071, guid: f63717fb3cb1f463f865696275d6cd62, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -528,7 +528,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &699545727
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1162,12 +1162,17 @@ MonoBehaviour:
   Char2name: {fileID: 54854356}
   Char2speech: {fileID: 991038768}
   DialogueDisplay: {fileID: 63548111}
-  ArtChar1a: {fileID: 699545726}
+  ArtChar2a: {fileID: 0}
+  ArtChar2b: {fileID: 0}
+  ArtChar2c: {fileID: 0}
   ArtBG1: {fileID: 544028963}
   Choice1a: {fileID: 1070262814}
   Choice1b: {fileID: 808061405}
+  Choice2a: {fileID: 0}
+  Choice2b: {fileID: 0}
   NextScene1Button: {fileID: 1921732148}
   NextScene2Button: {fileID: 8668351828155174285}
+  NextScene3Button: {fileID: 0}
   nextButton: {fileID: 7157758267276490241}
 --- !u!1 &1921732148 stripped
 GameObject:
