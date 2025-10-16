@@ -1,0 +1,403 @@
+fileFormatVersion: 2
+guid: c80d4d2395cab4953a2ff0c1890df0b7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8683147225302144174
+    second: Untitled 13 copy 11_0
+  - first:
+      213: 1640968397629806038
+    second: Untitled 13 copy 11_1
+  - first:
+      213: 2032774503743445223
+    second: Untitled 13 copy 11_2
+  - first:
+      213: -376299361090743574
+    second: Untitled 13 copy 11_3
+  - first:
+      213: 3608680836474892280
+    second: Untitled 13 copy 11_4
+  - first:
+      213: 3434336880134774755
+    second: Untitled 13 copy 11_5
+  - first:
+      213: -2175733671376857230
+    second: Untitled 13 copy 11_6
+  - first:
+      213: -5500554293595081161
+    second: Untitled 13 copy 11_7
+  - first:
+      213: -4703869428441662482
+    second: Untitled 13 copy 11_8
+  - first:
+      213: -8380693662348468894
+    second: Untitled 13 copy 11_9
+  - first:
+      213: 8942437016719678595
+    second: Untitled 13 copy 11_10
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Untitled 13 copy 11_0
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 625
+        width: 1584
+        height: 1629
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea49d88656cb08870800000000000000
+      internalID: 8683147225302144174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Untitled 13 copy 11_1
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 2234
+        width: 55
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d5dd5c3014e5c610800000000000000
+      internalID: 1640968397629806038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Untitled 13 copy 11_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 946
+        width: 100
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e8591c14add53c10800000000000000
+      internalID: 2032774503743445223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Untitled 13 copy 11_3
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 420
+        width: 561
+        height: 488
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae2dafc89bd17caf0800000000000000
+      internalID: -376299361090743574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Untitled 13 copy 11_4
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 142
+        width: 429
+        height: 345
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ff68d5e91c941230800000000000000
+      internalID: 3608680836474892280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Untitled 13 copy 11_5
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 0
+        width: 349
+        height: 441
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3efd473523739af20800000000000000
+      internalID: 3434336880134774755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Untitled 13 copy 11_6
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 220
+        width: 501
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 277d9bfd0cd3ec1e0800000000000000
+      internalID: -2175733671376857230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Untitled 13 copy 11_7
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 32
+        width: 233
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 736f38e530b1aa3b0800000000000000
+      internalID: -5500554293595081161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Untitled 13 copy 11_8
+      rect:
+        serializedVersion: 2
+        x: 1128
+        y: 192
+        width: 29
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eeb3aef4daf78beb0800000000000000
+      internalID: -4703869428441662482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Untitled 13 copy 11_9
+      rect:
+        serializedVersion: 2
+        x: 1173
+        y: 108
+        width: 126
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26d1a54548bc1bb80800000000000000
+      internalID: -8380693662348468894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Untitled 13 copy 11_10
+      rect:
+        serializedVersion: 2
+        x: 1138
+        y: 100
+        width: 29
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38c51ef661be91c70800000000000000
+      internalID: 8942437016719678595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Untitled 13 copy 11_0: 8683147225302144174
+      Untitled 13 copy 11_1: 1640968397629806038
+      Untitled 13 copy 11_10: 8942437016719678595
+      Untitled 13 copy 11_2: 2032774503743445223
+      Untitled 13 copy 11_3: -376299361090743574
+      Untitled 13 copy 11_4: 3608680836474892280
+      Untitled 13 copy 11_5: 3434336880134774755
+      Untitled 13 copy 11_6: -2175733671376857230
+      Untitled 13 copy 11_7: -5500554293595081161
+      Untitled 13 copy 11_8: -4703869428441662482
+      Untitled 13 copy 11_9: -8380693662348468894
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
