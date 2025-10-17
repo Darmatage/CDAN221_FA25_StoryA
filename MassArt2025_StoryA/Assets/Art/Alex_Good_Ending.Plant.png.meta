@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 356aa9659b6414dc7b14158af31ac427
+guid: 983dedc0efc94024ab992faba943b5f5
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 315026551850579100
-    second: IMG_0497 2_0
+      213: -6904042007073694562
+    second: Good_Ending.Plant_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,7 +46,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -96,17 +96,30 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: IMG_0497 2_0
+      name: Good_Ending.Plant_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 339
         y: 0
-        width: 811
-        height: 713
+        width: 565
+        height: 654
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c94bed5daf23f5400800000000000000
-      internalID: 315026551850579100
+      spriteID: e9c5ffdaf5aef20a0800000000000000
+      internalID: -6904042007073694562
       vertices: []
       indices: 
       edges: []
@@ -125,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      IMG_0497 2_0: 315026551850579100
+      Good_Ending.Plant_0: -6904042007073694562
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
