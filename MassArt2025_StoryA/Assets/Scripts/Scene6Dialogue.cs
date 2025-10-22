@@ -122,7 +122,7 @@ public void Next(){
                         if (primeInt == 9)
                         {
                                 Char1name.text = "YOU";
-                                Char1speech.text = "Anywhoooo, thought I'd give the birthday gues a little present!"
+                                Char1speech.text = "Anywhoooo, thought I'd give the birthday guest a little present!"
                                 Char2name.text = "";
                                 Char2speech.text = "";
                         }
@@ -135,7 +135,7 @@ public void Next(){
                         }
                          else if (primeInt == 11)
                         {
-                        Char1name.text = ""YOU;
+                        Char1name.text = "YOU";
                         Char1speech.text = "Of course! Here, behold, the succulent.";
                         Char2name.text = "";
                         Char2speech.text = "";
@@ -165,15 +165,165 @@ public void Next(){
 
                 else if (CandleGift == true);
                 {
-
+                        primeInt = 19;
+                        if (primeInt == 19)
+                        {
+                                Char1name.text = "YOU";
+                                Char1speech.text = "I deliver to you, a present most profound!"
+                                Char2name.text = "";
+                                Char2speech.text = "";
+                        }
+                          else if (primeInt == 20)
+                          {
+                        Char1name.text = "";
+                        Char1speech.text = "";
+                        Char2name.text = "Alex";
+                        Char2speech.text = "A present! Oh boy!!!";
+                        }
+                         else if (primeInt == 21)
+                        {
+                        Char1name.text = "YOU";
+                        Char1speech.text = "Of course! How could I not!";
+                        Char2name.text = "";
+                        Char2speech.text = "";
+                        }
+                          else if (primeInt == 22)
+                          {
+                        Char1name.text = "YOU";
+                        Char1speech.text = "Here you go!";
+                        Char2name.text = "";
+                        Char2speech.text = "";
+                        }
+                        else if (primeInt == 23)
+                          {
+                        Char1name.text = "";
+                        Char1speech.text = "";
+                        Char2name.text = "Alex";
+                        Char2speech.text = ". . .";
+                        }
+                        else if (primeInt == 24)
+                          {
+                        Char1name.text = "YOU";
+                        Char1speech.text = "oh.";
+                        Char2name.text = "";
+                        Char2speech.text = "";
+                        }
+                        //BAD END; You killed Alex!! With their candle allergy!! You Monster!!
                 }
                 else if (NoGift == true);
                 {
-
+                        primeInt = 29;
+                        if (primeInt == 29)
+                        {
+                                Char1name.text = "YOU";
+                                Char1speech.text = "Haha yeah."
+                                Char2name.text = "";
+                                Char2speech.text = "";
+                        }
+                          else if (primeInt == 30)
+                          {
+                        Char1name.text = "";
+                        Char1speech.text = "";
+                        Char2name.text = "Alex";
+                        Char2speech.text = "...";
+                        }
+                         else if (primeInt == 31)
+                        {
+                        Char1name.text = "YOU";
+                        Char1speech.text = "...";
+                        Char2name.text = "";
+                        Char2speech.text = "";
+                        }
+                          else if (primeInt == 32)
+                          {
+                        Char1name.text = "";
+                        Char1speech.text = "";
+                        Char2name.text = "Alex";
+                        Char2speech.text = "Well...do you have any gifts?";
+                        }
+                        else if (primeInt == 33)
+                          {
+                        Char1name.text = "YOU";
+                        Char1speech.text = "Huh?";
+                        Char2name.text = "";
+                        Char2speech.text = "";
+                        }
+                        else if (primeInt == 34)
+                          {
+                        Char1name.text = "";
+                        Char1speech.text = "";
+                        Char2name.text = "Alex";
+                        Char2speech.text = "Did you...not get me any gifts? :(";
+                        }
+                        else if (primeInt == 35)
+                          {
+                        Char1name.text = "YOU";
+                        Char1speech.text = "Uh....";
+                        Char2name.text = "";
+                        Char2speech.text = "";
+                        }
+                        else if (primeInt == 36)
+                          {
+                        Char1name.text = "";
+                        Char1speech.text = "";
+                        Char2name.text = "Alex";
+                        Char2speech.text = "...";
+                        }
+                        else if (primeInt == 37)
+                          {
+                        Char1name.text = "YOU";
+                        Char1speech.text = "...Sorry?";
+                        Char2name.text = "";
+                        Char2speech.text = "";
+                        }
+                        //BAD END; You didn't get Alex a gift? After all those years? Shame on you.
                 }
                 else if (PurpleNotebookGift == true);
                 {
-
+                primeInt = 39;
+                        if (primeInt == 39)
+                        {
+                                Char1name.text = "YOU";
+                                Char1speech.text = "I come bearing a gift!"
+                                Char2name.text = "";
+                                Char2speech.text = "";
+                        }
+                          else if (primeInt == 40)
+                          {
+                        Char1name.text = "";
+                        Char1speech.text = "";
+                        Char2name.text = "Alex";
+                        Char2speech.text = "Oh! Why thank you!";
+                        }
+                         else if (primeInt == 41)
+                        {
+                        Char1name.text = "YOU";
+                        Char1speech.text = "I know you love your colors...";
+                        Char2name.text = "";
+                        Char2speech.text = "";
+                        }
+                          else if (primeInt == 42)
+                          {
+                        Char1name.text = "";
+                        Char1speech.text = "";
+                        Char2name.text = "Alex";
+                        Char2speech.text = "Is it=";
+                        }
+                        else if (primeInt == 43)
+                          {
+                        Char1name.text = "YOU";
+                        Char1speech.text = "A PURPLE NOTEBOOK!!!";
+                        Char2name.text = "";
+                        Char2speech.text = "";
+                        }
+                        else if (primeInt == 44)
+                          {
+                        Char1name.text = "";
+                        Char1speech.text = "";
+                        Char2name.text = "Alex";
+                        Char2speech.text = "WOOOOOOOOOOOO";
+                        }
+                        //SEMI GOOD END? I mean. Alex loves purple.
                 }
                 else if (BurgerGift == true);
                 {
