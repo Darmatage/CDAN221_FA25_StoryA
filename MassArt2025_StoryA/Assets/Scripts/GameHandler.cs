@@ -7,9 +7,14 @@ using UnityEngine.SceneManagement;
 
 public class GameHandler : MonoBehaviour
 {
-    public static int playerStat1;
+    public static int ChairCount;
     //public GameObject textGameObject
     //void Start () {UpdateScore();}
+    public static bool SucculentGift = false;
+    public static bool CandleGift = false;
+    public static bool NoGift = false;
+    public static bool PurpleNotebookGift = false;
+    public static bool BurgerGift = false;
 
     void Update()
     {
