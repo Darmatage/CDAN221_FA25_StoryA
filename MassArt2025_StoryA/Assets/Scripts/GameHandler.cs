@@ -16,6 +16,7 @@ public class GameHandler : MonoBehaviour
     public static bool PurpleNotebookGift = false;
     public static bool BurgerGift = false;
     public static bool ChairGift = false;
+    public static bool BeenToMall = false;
 
     void Update()
     {

@@ -66,6 +66,10 @@ public class Scene2aDialogue : MonoBehaviour {
                 if (primeInt == 1)
                 {
                         // audioSource1.Play();
+                        if (GameHandler.BeenToMall == true)
+                        {
+                                primeInt = 100;
+                        }
                 }
                 else if (primeInt == 2)
                 {
@@ -75,6 +79,7 @@ public class Scene2aDialogue : MonoBehaviour {
                         Char1speech.text = "";
                         Char2name.text = "George";
                         Char2speech.text = "Hay! Good too see you!";
+                        GameHandler.BeenToMall = true;
                 }
                 else if (primeInt == 3)
                 {
@@ -189,7 +194,7 @@ public class Scene2aDialogue : MonoBehaviour {
                 Char1speech.text = "That's a Great decision!";
                 Char2name.text = "";
                 Char2speech.text = "";
-                primeInt = 933; // so hitting "NEXT" goes to primeInt==30!
+                primeInt = 7; // so hitting "NEXT" goes to primeInt==8!
                 Choice1a.SetActive(false);
                 Choice1b.SetActive(false);
                 nextButton.SetActive(true);
