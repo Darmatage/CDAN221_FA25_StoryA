@@ -64,10 +64,12 @@ public class Scene6Dialogue : MonoBehaviour {
         //Players hit [NEXT] to progress to the next primeInt:
         public void Next() {
                 primeInt += 1;
-                if (primeInt == 1) {
+                if (primeInt == 1)
+                {
                         // audioSource1.Play();
                 }
-                else if (primeInt == 2) {
+                else if (primeInt == 2)
+                {
                         ArtChar2a.SetActive(true);
                         DialogueDisplay.SetActive(true);
                         Char1name.text = "";
@@ -88,32 +90,37 @@ public class Scene6Dialogue : MonoBehaviour {
                         Choice1a.SetActive(true); // function Choice1aFunct() Party?
                         Choice1b.SetActive(true); // function Choice1bFunct() Nice Day?
                 }
-                else if (primeInt == 4) {
+                else if (primeInt == 4)
+                {
                         Char1name.text = "";
                         Char1speech.text = "";
                         Char2name.text = "Alex";
                         Char2speech.text = "Great! I think? Have fun on your way here?";
                 }
-                else if (primeInt == 5) {
+                else if (primeInt == 5)
+                {
                         Char1name.text = "YOU";
                         Char1speech.text = "Yeah!";
                         Char2name.text = "";
                         Char2speech.text = "";
                         primeInt = 7;
                 }
-                else if (primeInt == 6) {
+                else if (primeInt == 6)
+                {
                         Char1name.text = "";
                         Char1speech.text = "";
                         Char2name.text = "Alex";
                         Char2speech.text = "Yeah, of course! I'm glad you came, bud.";
                 }
-                else if (primeInt == 7) {
+                else if (primeInt == 7)
+                {
                         Char1name.text = "YOU";
                         Char1speech.text = "Glad to be here.";
                         Char2name.text = "";
                         Char2speech.text = "";
                 }
-                else if (primeInt == 8) {
+                else if (primeInt == 8)
+                {
                         Char1name.text = "";
                         Char1speech.text = "";
                         Char2name.text = "Alex";
@@ -137,7 +144,7 @@ public class Scene6Dialogue : MonoBehaviour {
                         }
                         else if (GameHandler.BurgerGift == true)
                         {
-                                primeInt = 49;
+                                primeInt = 48;
                         }
                         else if (GameHandler.ChairCount == 2)
                         {
@@ -346,15 +353,132 @@ public class Scene6Dialogue : MonoBehaviour {
                 }
                 else if (primeInt == 49)
                 {
-
+                        Char1name.text = "YOU";
+                        Char1speech.text = "I uh, brought you a gift?";
+                        Char2name.text = "";
+                        Char2speech.text = "";
+                }
+                else if (primeInt == 50)
+                {
+                        Char1name.text = "";
+                        Char1speech.text = "";
+                        Char2name.text = "Alex";
+                        Char2speech.text = "Haha, why's that a question?";
+                }
+                else if (primeInt == 51)
+                {
+                        Char1name.text = "YOU";
+                        Char1speech.text = "uhhhh...";
+                        Char2name.text = "";
+                        Char2speech.text = "";
+                }
+                else if (primeInt == 52)
+                {
+                        Char1name.text = "YOU";
+                        Char1speech.text = "I hope you like McDanold's...";
+                        Char2name.text = "";
+                        Char2speech.text = "";
+                }
+                else if (primeInt == 53)
+                {
+                        Char1name.text = "";
+                        Char1speech.text = "";
+                        Char2name.text = "Alex";
+                        Char2speech.text = "...";
+                }
+                else if (primeInt == 54)
+                {
+                        Char1name.text = "";
+                        Char1speech.text = "";
+                        Char2name.text = "Alex";
+                        Char2speech.text = "It's cold and hard as a rock..";
+                        primeInt = 100; // REDUNDANT, ENDING
                 }
                 else if (primeInt == 59)
                 {
-                        // you die. I'm sorry that's just how it goes.
+                        Char1name.text = "YOU";
+                        Char1speech.text = "Me and George got you some presents, I saw him yesterday!";
+                        Char2name.text = "";
+                        Char2speech.text = "";
+                }
+                else if (primeInt == 60)
+                {
+                        Char1name.text = "YOU";
+                        Char1speech.text = "We actually got similar gifts!";
+                        Char2name.text = "";
+                        Char2speech.text = "";
+                }
+                else if (primeInt == 61)
+                {
+                        Char1name.text = "";
+                        Char1speech.text = "";
+                        Char2name.text = "Alex";
+                        Char2speech.text = "Are you kidding me?";
+                }
+                else if (primeInt == 62)
+                {
+                        Char1name.text = "";
+                        Char1speech.text = "";
+                        Char2name.text = "Alex";
+                        Char2speech.text = "Not one,";
+                }
+                else if (primeInt == 63)
+                {
+                        Char1name.text = "";
+                        Char1speech.text = "";
+                        Char2name.text = "Alex";
+                        Char2speech.text = "But TWO CHAIRS??";
+                }
+                else if (primeInt == 64)
+                {
+                        Char1name.text = "YOU";
+                        Char1speech.text = "Surprise?";
+                        Char2name.text = "";
+                        Char2speech.text = "";
+                }
+                else if (primeInt == 65)
+                {
+                        Char1name.text = "";
+                        Char1speech.text = "";
+                        Char2name.text = "Alex";
+                        Char2speech.text = "Perish.";
+                        primeInt = 100;
                 }
                 else if (primeInt == 69)
                 {
-            
+                        Char1name.text = "YOU";
+                        Char1speech.text = "George and I come bearing gifts!";
+                        Char2name.text = "";
+                        Char2speech.text = "";
+                }
+                else if (primeInt == 70)
+                {
+                        Char1name.text = "";
+                        Char1speech.text = "";
+                        Char2name.text = "Alex";
+                        Char2speech.text = "....Is that what I think it is.";
+                }
+                else if (primeInt == 71)
+                {
+                        Char1name.text = "YOU";
+                        Char1speech.text = "Uhhh....";
+                        Char2name.text = "";
+                        Char2speech.text = "";
+                }
+                else if (primeInt == 72)
+                {
+                        Char1name.text = "YOU";
+                        Char1speech.text = "There's another gift...too?";
+                        Char2name.text = "";
+                        Char2speech.text = "";
+                }
+                else if (primeInt == 73)
+                {
+                        Char1name.text = "";
+                        Char1speech.text = "";
+                        Char2name.text = "Alex";
+                        Char2speech.text = "I can't believe you.";
+                        primeInt = 100;
                 }
      }
 
