@@ -122,7 +122,7 @@ public void Next(){
                         Char1name.text = "";
                         Char1speech.text = "";
                         Char2name.text = "Cat";
-                        Char2speech.text = "Well...maybe you can make it up..witha bit of those eggs you're eating?";
+                        Char2speech.text = "Well...maybe you can make it up..with a bit of those eggs you're eating?";
                 }
                 else if (primeInt == 9)
                 {

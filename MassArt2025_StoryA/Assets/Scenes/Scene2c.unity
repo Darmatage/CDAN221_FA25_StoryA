@@ -1162,10 +1162,9 @@ MonoBehaviour:
   Char2name: {fileID: 54854356}
   Char2speech: {fileID: 991038768}
   DialogueDisplay: {fileID: 63548111}
-  ArtChar2a: {fileID: 0}
-  ArtChar2b: {fileID: 0}
-  ArtChar2c: {fileID: 0}
-  ArtChar2d: {fileID: 0}
+  ArtChar2a: {fileID: 699545726}
+  ArtChar2b: {fileID: 699545726}
+  ArtChar2c: {fileID: 699545726}
   ArtBG1: {fileID: 544028963}
   Choice1a: {fileID: 1070262814}
   Choice1b: {fileID: 808061405}
