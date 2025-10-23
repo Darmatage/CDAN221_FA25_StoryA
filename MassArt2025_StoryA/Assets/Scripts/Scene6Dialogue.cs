@@ -20,7 +20,7 @@ public class Scene6Dialogue : MonoBehaviour {
         public GameObject ArtChar2a;
         public GameObject ArtChar2b;
         public GameObject ArtChar2c;
-        //public GameObject ArtChar2;
+        public GameObject ArtChar2d;
         public GameObject ArtBG1;
         public GameObject Choice1a;
         public GameObject Choice1b;
@@ -36,6 +36,7 @@ public class Scene6Dialogue : MonoBehaviour {
                 ArtChar2a.SetActive(false);
                 ArtChar2b.SetActive(false);
                 ArtChar2c.SetActive(false);
+                ArtChar2d.SetActive(false);
                 ArtBG1.SetActive(true);
                 Choice1a.SetActive(false);
                 Choice1b.SetActive(false);
@@ -172,6 +173,8 @@ public class Scene6Dialogue : MonoBehaviour {
                 }
                 else if (primeInt == 12)
                 {
+                        ArtChar2a.SetActive(false);
+                        ArtChar2c.SetActive(true);
                         Char1name.text = "";
                         Char1speech.text = "";
                         Char2name.text = "Alex";
