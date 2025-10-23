@@ -304,11 +304,11 @@ public class Scene1Dialogue : MonoBehaviour {
 	}
 	public void SceneChange2()
 	{
-		SceneManager.LoadScene("Scene2c"); //back to sleep
+		SceneManager.LoadScene("Scene2d"); //back to sleep
 	}
 		
         public void SceneChange3(){
-                SceneManager.LoadScene("Scene2d"); // kitchen
+                SceneManager.LoadScene("Scene2c"); // kitchen
         }
 
 }
