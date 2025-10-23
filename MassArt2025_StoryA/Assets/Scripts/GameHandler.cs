@@ -12,9 +12,10 @@ public class GameHandler : MonoBehaviour
     //void Start () {UpdateScore();}
     public static bool SucculentGift = false;
     public static bool CandleGift = false;
-    public static bool NoGift = false;
+    public static bool NoGift = true;
     public static bool PurpleNotebookGift = false;
     public static bool BurgerGift = false;
+    public static bool ChairGift = false;
 
     void Update()
     {
