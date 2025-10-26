@@ -20,7 +20,7 @@ public class Scene3bDialogue : MonoBehaviour {
         public GameObject ArtChar2a;
         public GameObject ArtChar2b;
         public GameObject ArtChar2c;
-        public GameObject ArtChar2d;
+        //public GameObject ArtChar2d;
         public GameObject ArtBG1;
         public GameObject Choice1a;
         public GameObject Choice1b;
@@ -37,7 +37,7 @@ public class Scene3bDialogue : MonoBehaviour {
              ArtChar2a.SetActive(false);
              ArtChar2b.SetActive(false);
              ArtChar2c.SetActive(false);
-             ArtChar2d.SetActive(false);
+             //ArtChar2d.SetActive(false);
              ArtBG1.SetActive(true);
              Choice1a.SetActive(false);
              Choice1b.SetActive(false);
@@ -72,149 +72,133 @@ public void Next(){
                 }
                 else if (primeInt == 2)
                 {
-                        ArtChar2a.SetActive(true);
                         DialogueDisplay.SetActive(true);
                         Char1name.text = "YOU";
-                        Char1speech.text = "Oh hey, is that Mrs. Art Teacher?";
+                        Char1speech.text = "OK. Let's try the General store.";
                         Char2name.text = "";
                         Char2speech.text = "";
                 }
                 else if (primeInt == 3)
                 {
-                        Char1name.text = "";
-                        Char1speech.text = "";
-                        Char2name.text = "Teacher";
-                        Char2speech.text = "Oh, good morning...";
+                        Char1name.text = "YOU";
+                        Char1speech.text = "They're generally good, right?";
+                        Char2name.text = "";
+                        Char2speech.text = "";
                 }
-                else if (primeInt == 4)
+               else if (primeInt == 4)
                 {
                         Char1name.text = "YOU";
-                        Char1speech.text = "How's life going for you, Mrs. Art Teacher?";
+                        Char1speech.text = "Hello, I’m looking for something to buy for my friend.";
                         Char2name.text = "";
                         Char2speech.text = "";
                 }
                 else if (primeInt == 5)
                 {
+                        ArtChar2a.SetActive(true);
                         Char1name.text = "";
                         Char1speech.text = "";
-                        Char2name.text = "Teacher";
-                        Char2speech.text = "It's...great..I guess.";
+                        Char2name.text = "Emoji Gohn";
+                        Char2speech.text = "please dont buy a chair...";
+                }
+                else if (primeInt == 6)
+                {
+                        Char1name.text = "YOU";
+                        Char1speech.text = "HUh?";
+                        Char2name.text = "";
+                        Char2speech.text = "";
+                }
+
+                else if (primeInt == 7)
+                {
+                        ArtChar2a.SetActive(false);
+                        ArtChar2b.SetActive(true);
+                        Char1name.text = "";
+                        Char1speech.text = "";
+                        Char2name.text = "Emoji Gohn";
+                        Char2speech.text = "chairs will only bring misfortune upon you...";
+                }
+                else if (primeInt == 8)
+                {
+                        Char1name.text = "YOU";
+                        Char1speech.text = "";
+                        Char2name.text = "";
+                        Char2speech.text = "";
                         nextButton.SetActive(false);
                         allowSpace = false;
                         Choice1a.SetActive(true); // function Choice1aFunct()
                         Choice1b.SetActive(true); // function Choice1bFunct()
                 }
-                else if (primeInt == 6)
-                {
 
-                        Char1name.text = "";
-                        Char1speech.text = "";
-                        Char2name.text = "Teacher";
-                        Char2speech.text = "Your class is a nightmare";
-                }
-                else if (primeInt == 7)
-                {
-                        Char1name.text = "YOU";
-                        Char1speech.text = "Oh. Well, Alex is alright, right?";
-                        Char2name.text = "";
-                        Char2speech.text = "";
-                        primeInt = 9;
-                }
-                else if (primeInt == 8)
-                {
-                        Char1name.text = "";
-                        Char1speech.text = "";
-                        Char2name.text = "Teacher";
-                        Char2speech.text = "Alex? You mean the person that ATE our class pet, Leafy? My beloved plant?";
-                }
-                else if (primeInt == 9)
-                {
-                        Char1name.text = "YOU";
-                        Char1speech.text = "Oh yeah.";
-                        Char2name.text = "";
-                        Char2speech.text = "";
-                }
-                else if (primeInt == 10)
-                {
-                        Char1name.text = "YOU";
-                        Char1speech.text = "I forgot they ate the succulent.";
-                        Char2name.text = "";
-                        Char2speech.text = "";
-                }
-                else if (primeInt == 11)
-                {
-                        Char1name.text = "";
-                        Char1speech.text = "";
-                        Char2name.text = "Teacher";
-                        Char2speech.text = "The succulent, had a name.";
-                }
-                else if (primeInt == 12)
-                {
-                        Char1name.text = "YOU";
-                        Char1speech.text = "Right, right, my bad. Sorry Mrs. Art Teacher.";
-                        Char2name.text = "";
-                        Char2speech.text = "";
-                        primeInt = 14;
-                }
-                else if (primeInt == 13)
-                {
-                        Char1name.text = "";
-                        Char1speech.text = "";
-                        Char2name.text = "Teacher";
-                        Char2speech.text = "*sigh*";
-                }
-                else if (primeInt == 14)
-                {
-                        Char1name.text = "YOU";
-                        Char1speech.text = "Life's goin' great for me at least! :)";
-                        Char2name.text = "";
-                        Char2speech.text = "";
-                }
-                else if (primeInt == 15)
-                {
-                        Char1name.text = "";
-                        Char1speech.text = "";
-                        Char2name.text = "Teacher";
-                        Char2speech.text = "Well...what did you want?";
-                }
-                else if (primeInt == 15)
-                {
-                        Char1name.text = "YOU";
-                        Char1speech.text = "I wanted to ask, do you know what kind of gift Alex would want? It's their birthday tomorrow.";
-                        Char2name.text = "";
-                        Char2speech.text = "";
-                }
-                else if (primeInt == 16)
-                {
-                        Char1name.text = "";
-                        Char1speech.text = "";
-                        Char2name.text = "Teacher";
-                        Char2speech.text = "…you should know already! Just get Alex another class pet, they already ate the last one!";
-                }
-                else if (primeInt == 17)
-                {
-                        Char1name.text = "YOU";
-                        Char1speech.text = "Oh, uh,.. thanks!";
-                        Char2name.text = "";
-                        Char2speech.text = "";
-                }
-                else if (primeInt == 18)
-                {
-                        Char1name.text = "YOU";
-                        Char1speech.text = "I've got to finish shopping, so I guess that means I'll see you next class!";
-                        Char2name.text = "";
-                        Char2speech.text = "";
-                }
-                else if (primeInt == 19)
-                {
-                        Char1name.text = "";
-                        Char1speech.text = "";
-                        Char2name.text = "Teacher";
-                        Char2speech.text = "*muttering*";
-                }
+
+//AFTER CHOICE 1a
+
                 else if (primeInt == 20)
                 {
                         Char1name.text = "";
+                        Char1speech.text = "";
+                        Char2name.text = "Emoji Gohn";
+                        Char2speech.text = "chairs killed my grandma";
+                        primeInt =39;
+                }
+
+//AFTER CHOICE 1b:
+                else if (primeInt == 30)
+                {
+                        Char1name.text = "";
+                        Char1speech.text = "";
+                        Char2name.text = "Emoji Gohn";
+                        Char2speech.text = "glad to see you understand the danger of chairs..";
+                        primeInt = 39;
+                }
+
+//AFTER BOTH CHOICES:
+                else if (primeInt == 40)
+                {
+                        Char1name.text = "";
+                        Char1speech.text = "";
+                        Char2name.text = "Emoji Gohn";
+                        Char2speech.text = "Seriously, buying a chair is a slippery slope down a dark path...";
+                }
+                else if (primeInt == 41)
+                {
+                        Char1name.text = "YOU";
+                        Char1speech.text = "they're bad, but maybe Alex might like one?";
+                        Char2name.text = "";
+                        Char2speech.text = "";
+                }
+                else if (primeInt == 42)
+                {
+                        Char1name.text = "";
+                        Char1speech.text = "";
+                        Char2name.text = "Emoji Gohn";
+                        Char2speech.text = "NO...";
+                }
+                else if (primeInt == 43)
+                {
+                        Char1name.text = "YOU";
+                        Char1speech.text = "oh okay...";
+                        Char2name.text = "";
+                        Char2speech.text = "";
+                }
+                else if (primeInt == 44)
+                {
+                        Char1name.text = "";
+                        Char1speech.text = "";
+                        Char2name.text = "Emoji Gohn";
+                        Char2speech.text = "I'm warning you...";
+                        
+                }
+                else if (primeInt == 45)
+                {
+                        Char1name.text = "";
+                        Char1speech.text = "";
+                        Char2name.text = "Emoji Gohn";
+                        Char2speech.text = "you should get something less sinister. Maybe a candle or something?";
+                }
+
+                else if (primeInt == 46)
+                {
+                        Char1name.text = "YOU";
                         Char1speech.text = " ";
                         Char2name.text = "";
                         Char2speech.text = "";
@@ -231,10 +215,10 @@ public void Next(){
 // FUNCTIONS FOR BUTTONS TO ACCESS (Choice #1 and SceneChanges)
         public void Choice1aFunct(){
                 Char1name.text = "YOU";
-                Char1speech.text = "You don't sound too sure?";
+                Char1speech.text = "What did the chairs do to you?";
                 Char2name.text = "";
                 Char2speech.text = "";
-                primeInt = 5; // so hitting "NEXT" goes to primeInt==6!
+                primeInt = 19; // so hitting "NEXT" goes to primeInt==6!
                 Choice1a.SetActive(false);
                 Choice1b.SetActive(false);
                 nextButton.SetActive(true);
@@ -242,10 +226,10 @@ public void Next(){
         }
         public void Choice1bFunct(){
                 Char1name.text = "YOU";
-                Char1speech.text = "Haha yeah.";
+                Char1speech.text = "yeah, chairs suck..";
                 Char2name.text = "";
                 Char2speech.text = "";
-                primeInt = 12; // so hitting "NEXT" goes to primeInt==13!
+                primeInt = 29; // so hitting "NEXT" goes to primeInt==13!
                 Choice1a.SetActive(false);
                 Choice1b.SetActive(false);
                 nextButton.SetActive(true);
@@ -253,16 +237,17 @@ public void Next(){
         }
 
         public void SceneChange1(){
-               SceneManager.LoadScene("Scene5a");
+                GameHandler.ChairCount += 1;
+                GameHandler.ChairGift = true;
+               SceneManager.LoadScene("Scene6");
         }
         public void SceneChange2()
         {
-                SceneManager.LoadScene("Scene2a");
+                SceneManager.LoadScene("Scene5b");
         }
         public void SceneChange3()
         {
-                GameHandler.PurpleNotebookGift = true;
-                GameHandler.NoGift = false;
-                SceneManager.LoadScene("Scene6");
+                GameHandler.BeenToGeneralStore = true;
+                SceneManager.LoadScene("Scene2a");
         }
 }

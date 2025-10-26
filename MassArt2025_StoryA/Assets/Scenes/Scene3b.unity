@@ -150,14 +150,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.554717, g: 0.554717, b: 0.554717, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 219095dcb51854f3088e93ed211b2ea4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -300,7 +300,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4126162725101330374, guid: ab39f27c487439942af83a743b286310, type: 3}
       propertyPath: m_text
-      value: Story Choice 2
+      value: Yeah!
       objectReference: {fileID: 0}
     - target: {fileID: 7952815946958781843, guid: ab39f27c487439942af83a743b286310, type: 3}
       propertyPath: m_Name
@@ -561,14 +561,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.554717, g: 0.554717, b: 0.554717, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: -3019624538711474065, guid: f59043faa7d7d499ca0f834d41c30ff6, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -617,14 +617,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.554717, g: 0.554717, b: 0.554717, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 2b347f84bdaec47a4976b7554013864a, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -711,14 +711,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.554717, g: 0.554717, b: 0.554717, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: a6b946a3eaedd4904a6d947b651f8608, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -848,7 +848,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &950067047
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -996,7 +996,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4126162725101330374, guid: ab39f27c487439942af83a743b286310, type: 3}
       propertyPath: m_text
-      value: 'Scene Change 2 '
+      value: Go back to hall
       objectReference: {fileID: 0}
     - target: {fileID: 7952815946958781843, guid: ab39f27c487439942af83a743b286310, type: 3}
       propertyPath: m_Name
@@ -1008,7 +1008,7 @@ PrefabInstance:
       objectReference: {fileID: 1715210407}
     - target: {fileID: 8919248130530170719, guid: ab39f27c487439942af83a743b286310, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: SceneChange2
+      value: SceneChange3
       objectReference: {fileID: 0}
     - target: {fileID: 8919248130530170719, guid: ab39f27c487439942af83a743b286310, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
@@ -1118,7 +1118,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2046707908642518259, guid: ab39f27c487439942af83a743b286310, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 100
+      value: 210
       objectReference: {fileID: 0}
     - target: {fileID: 2046707908642518259, guid: ab39f27c487439942af83a743b286310, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1134,7 +1134,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4126162725101330374, guid: ab39f27c487439942af83a743b286310, type: 3}
       propertyPath: m_text
-      value: Scene Change 1
+      value: Buy a chair
       objectReference: {fileID: 0}
     - target: {fileID: 7952815946958781843, guid: ab39f27c487439942af83a743b286310, type: 3}
       propertyPath: m_Name
@@ -1261,7 +1261,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4126162725101330374, guid: ab39f27c487439942af83a743b286310, type: 3}
       propertyPath: m_text
-      value: Story Choice 1
+      value: Why?
       objectReference: {fileID: 0}
     - target: {fileID: 7952815946958781843, guid: ab39f27c487439942af83a743b286310, type: 3}
       propertyPath: m_Name
@@ -1486,11 +1486,11 @@ RectTransform:
   - {fileID: 553369941}
   - {fileID: 950067049}
   - {fileID: 5231417150900597288}
+  - {fileID: 1189854782}
+  - {fileID: 174309920}
   - {fileID: 1035187075}
   - {fileID: 4517026206528573282}
   - {fileID: 984379657}
-  - {fileID: 1189854782}
-  - {fileID: 174309920}
   - {fileID: 2717614859707053294}
   - {fileID: 285416122}
   m_Father: {fileID: 0}
@@ -1624,7 +1624,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2046707908642518259, guid: ab39f27c487439942af83a743b286310, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: 108
       objectReference: {fileID: 0}
     - target: {fileID: 2046707908642518259, guid: ab39f27c487439942af83a743b286310, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1640,7 +1640,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4126162725101330374, guid: ab39f27c487439942af83a743b286310, type: 3}
       propertyPath: m_text
-      value: 'Scene Change 2 '
+      value: Go to candle store
       objectReference: {fileID: 0}
     - target: {fileID: 7952815946958781843, guid: ab39f27c487439942af83a743b286310, type: 3}
       propertyPath: m_Name

@@ -18,6 +18,8 @@ public class GameHandler : MonoBehaviour
     public static bool ChairGift = false;
     public static bool BeenToMall = false;
 
+    public static bool BeenToGeneralStore = false;
+
     void Update()
     {
         //NOTE: delete this quit functionality when a Pause Menu is added!
