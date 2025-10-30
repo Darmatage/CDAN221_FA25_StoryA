@@ -185,7 +185,7 @@ public void Next(){
                         Char2name.text = "Clerk";
                         Char2speech.text = "Yeah, want a purple candle or a green one?";
                 }
-                else if (primeInt == 15)
+                else if (primeInt == 17)
                 {
                         Char1name.text = "YOU";
                         Char1speech.text = "Hmm..";

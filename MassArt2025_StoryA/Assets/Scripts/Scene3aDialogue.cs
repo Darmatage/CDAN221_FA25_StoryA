@@ -221,8 +221,11 @@ public void Next(){
                         Char2speech.text = "";
                         nextButton.SetActive(false);
                         allowSpace = false;
+                        if (GameHandler.BeenToPlantStore == false)
+                        {
+                                NextScene1Button.SetActive(true);    
+                        }
                         NextScene2Button.SetActive(true);
-                        NextScene1Button.SetActive(true);
                         NextScene3Button.SetActive(true);
                 }
 
