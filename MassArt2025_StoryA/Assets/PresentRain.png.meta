@@ -547,7 +547,24 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      PresentRain_0: -6092341180170095265
+      PresentRain_1: 2805054786924315815
+      PresentRain_10: 2939618071270641042
+      PresentRain_11: -7875999493008859375
+      PresentRain_12: 562264072921723875
+      PresentRain_13: -8927954448604866041
+      PresentRain_14: 2439145892503774251
+      PresentRain_15: -1416974180448389624
+      PresentRain_16: 7752404993122781085
+      PresentRain_2: 8490051023014585768
+      PresentRain_3: 1010340768255283469
+      PresentRain_4: 2940308171446126895
+      PresentRain_5: -1854706170819717542
+      PresentRain_6: 1713819116280198702
+      PresentRain_7: 3468607771140625058
+      PresentRain_8: 7918995297295152835
+      PresentRain_9: -4269400615553077757
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
