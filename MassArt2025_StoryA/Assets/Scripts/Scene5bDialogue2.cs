@@ -71,33 +71,37 @@ public void Next(){
                 else if (primeInt == 2)
                 {
                         GameHandler.BeenToCandleStore = true;
-                        ArtChar2a.SetActive(true);
                         DialogueDisplay.SetActive(true);
                         Char1name.text = "YOU";
-                        Char1speech.text = "";
+                        Char1speech.text = "Is anyone in there?";
                         Char2name.text = "";
                         Char2speech.text = "";
                 }
                 else if (primeInt == 3)
                 {
+                        ArtChar2a.SetActive(true);
                         Char1name.text = "";
                         Char1speech.text = "";
                         Char2name.text = "Clerk";
-                        Char2speech.text = "";
+                        Char2speech.text = "Oh! A customer! Yeah!";
+                        nextButton.SetActive(false);
+                        allowSpace = false;
+                        Choice1a.SetActive(true); // function Choice1aFunct()
+                        Choice1b.SetActive(true); // function Choice1bFunct()
                         //gameHandler.AddPlayerStat(1);
                 }
                 else if (primeInt == 4)
                 {
-                        Char1name.text = "YOU";
-                        Char1speech.text = "";
-                        Char2name.text = "";
-                        Char2speech.text = "";
-                }
-                else if (primeInt == 5)
-                {
                         Char1name.text = "";
                         Char1speech.text = "";
                         Char2name.text = "Clerk";
+                        Char2speech.text = "Anyone in particular it's for?";
+                }
+                else if (primeInt == 5)
+                {
+                        Char1name.text = "YOU";
+                        Char1speech.text = "My buddy Alex! A friend of mine.";
+                        Char2name.text = "";
                         Char2speech.text = "";
                 }
                 else if (primeInt == 6)
@@ -106,26 +110,27 @@ public void Next(){
                         Char1name.text = "";
                         Char1speech.text = "";
                         Char2name.text = "Clerk";
-                        Char2speech.text = "";
+                        Char2speech.text = "As long as they're not allergic, all our candles make great gifts!";
                 }
                 else if (primeInt == 7)
                 {
                         Char1name.text = "YOU";
-                        Char1speech.text = "";
+                        Char1speech.text = "Nice!";
                         Char2name.text = "";
                         Char2speech.text = "";
+                        primeInt = 12;
                 }
                 else if (primeInt == 8)
                 {
                         Char1name.text = "";
                         Char1speech.text = "";
                         Char2name.text = "Clerk";
-                        Char2speech.text = "";
+                        Char2speech.text = "Uh...rude..?";
                 }
                 else if (primeInt == 9)
                 {
                         Char1name.text = "YOU";
-                        Char1speech.text = "";
+                        Char1speech.text = "But it does?";
                         Char2name.text = "";
                         Char2speech.text = "";
                 }
@@ -134,46 +139,42 @@ public void Next(){
                         Char1name.text = "";
                         Char1speech.text = "";
                         Char2name.text = "Clerk";
-                        Char2speech.text = "";
+                        Char2speech.text = "Dude don't just go into a store and say that.";
                 }
                 else if (primeInt == 11)
                 {
                         Char1name.text = "";
                         Char1speech.text = "";
                         Char2name.text = "Clerk";
-                        Char2speech.text = "";
+                        Char2speech.text = "It smells like candles, because its a candle store.";
                         // Turn off the "Next" button, turn on "Choice" buttons
-                        nextButton.SetActive(false);
-                        allowSpace = false;
-                        Choice1a.SetActive(true); // function Choice1aFunct()
-                        Choice1b.SetActive(true); // function Choice1bFunct()
                 }
                 else if (primeInt == 12)
                 {
-                        Char1name.text = "";
-                        Char1speech.text = "";
-                        Char2name.text = "Clerk";
+                        Char1name.text = "YOU";
+                        Char1speech.text = "Oh, sorry I guess.";
+                        Char2name.text = "";
                         Char2speech.text = "";
                 }
                 else if (primeInt == 13)
                 {
-                        Char1name.text = "YOU";
+                        Char1name.text = "";
                         Char1speech.text = "";
-                        Char2name.text = "";
-                        Char2speech.text = "";
-                        primeInt = 15;
+                        Char2name.text = "Clerk";
+                        Char2speech.text = "Well it's the day after the main sale,";
+
                 }
                 else if (primeInt == 14)
                 {
                         Char1name.text = "";
                         Char1speech.text = "";
                         Char2name.text = "Clerk";
-                        Char2speech.text = "";
+                        Char2speech.text = "so we only have two main types. ";
                 }
                 else if (primeInt == 15)
                 {
                         Char1name.text = "YOU";
-                        Char1speech.text = "";
+                        Char1speech.text = "Only two?";
                         Char2name.text = "";
                         Char2speech.text = "";
                 }
@@ -182,26 +183,12 @@ public void Next(){
                         Char1name.text = "";
                         Char1speech.text = "";
                         Char2name.text = "Clerk";
-                        Char2speech.text = "";
+                        Char2speech.text = "Yeah, want a purple candle or a green one?";
                 }
                 else if (primeInt == 15)
                 {
                         Char1name.text = "YOU";
-                        Char1speech.text = "";
-                        Char2name.text = "";
-                        Char2speech.text = "";
-                }
-                else if (primeInt == 16)
-                {
-                        Char1name.text = "";
-                        Char1speech.text = "";
-                        Char2name.text = "Clerk";
-                        Char2speech.text = "";
-                }
-                else if (primeInt == 17)
-                {
-                        Char1name.text = "YOU";
-                        Char1speech.text = " ";
+                        Char1speech.text = "Hmm..";
                         Char2name.text = "";
                         Char2speech.text = "";
                         nextButton.SetActive(false);
@@ -219,10 +206,10 @@ public void Next(){
 // FUNCTIONS FOR BUTTONS TO ACCESS (Choice #1 and SceneChanges)
         public void Choice1aFunct(){
                 Char1name.text = "YOU";
-                Char1speech.text = "Wait, you have purple succulents?";
+                Char1speech.text = "I'm looking for a birthday gift?";
                 Char2name.text = "";
                 Char2speech.text = "";
-                primeInt = 11; // so hitting "NEXT" goes to primeInt==12!
+                primeInt = 3; // so hitting "NEXT" goes to primeInt==4!
                 Choice1a.SetActive(false);
                 Choice1b.SetActive(false);
                 nextButton.SetActive(true);
@@ -230,10 +217,10 @@ public void Next(){
         }
         public void Choice1bFunct(){
                 Char1name.text = "YOU";
-                Char1speech.text = "Why do you have so many colors?";
+                Char1speech.text = "Oh it smells...";
                 Char2name.text = "";
                 Char2speech.text = "";
-                primeInt = 13; // so hitting "NEXT" goes to primeInt==14!
+                primeInt = 7; // so hitting "NEXT" goes to primeInt==8!
                 Choice1a.SetActive(false);
                 Choice1b.SetActive(false);
                 nextButton.SetActive(true);

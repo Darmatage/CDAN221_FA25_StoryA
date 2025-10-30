@@ -225,7 +225,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4126162725101330374, guid: ab39f27c487439942af83a743b286310, type: 3}
       propertyPath: m_text
-      value: Story Choice 2
+      value: It smells...
       objectReference: {fileID: 0}
     - target: {fileID: 7952815946958781843, guid: ab39f27c487439942af83a743b286310, type: 3}
       propertyPath: m_Name
@@ -1044,7 +1044,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4126162725101330374, guid: ab39f27c487439942af83a743b286310, type: 3}
       propertyPath: m_text
-      value: Story Choice 1
+      value: Birthday Gift?
       objectReference: {fileID: 0}
     - target: {fileID: 7952815946958781843, guid: ab39f27c487439942af83a743b286310, type: 3}
       propertyPath: m_Name
