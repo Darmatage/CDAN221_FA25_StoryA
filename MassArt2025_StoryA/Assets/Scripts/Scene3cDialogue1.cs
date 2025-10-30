@@ -83,7 +83,7 @@ public void Next(){
                         Char1name.text = "";
                         Char1speech.text = "";
                         Char2name.text = "Ranold McDanold";
-                        Char2speech.text = "???";
+                        Char2speech.text = "!@&*($&@)$*!)#*#!(*$&%&#*@)";
                 }
                 else if (primeInt == 4)
                 {
@@ -97,7 +97,7 @@ public void Next(){
                         Char1name.text = "";
                         Char1speech.text = "";
                         Char2name.text = "Ranold McDanold";
-                        Char2speech.text = "???";
+                        Char2speech.text = "!(&$)(^%&@()(*&^@#$^%&$^&#(#)";
                 }
                 else if (primeInt == 6)
                 {
@@ -116,7 +116,7 @@ public void Next(){
                         Char1name.text = "";
                         Char1speech.text = "";
                         Char2name.text = "Ranold McDanold";
-                        Char2speech.text = "???";
+                        Char2speech.text = "?&&*%#()@%()%&#)@##*#";
                         primeInt = 8;
                 }
                 else if (primeInt == 8)
@@ -131,7 +131,7 @@ public void Next(){
                         Char1name.text = "";
                         Char1speech.text = "";
                         Char2name.text = "Ranold McDanold";
-                        Char2speech.text = "???";
+                        Char2speech.text = "??*()@$()@!((^&@*&^^^^*@$)$&!)?";
                 }
                 else if (primeInt == 10)
                 {
