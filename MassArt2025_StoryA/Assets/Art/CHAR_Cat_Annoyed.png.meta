@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 807c94dc43a904ea79c3c84113020dfd
+guid: 46aa79bdc542c443fafc17a897a1fd3b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2363127262104844513
-    second: BG_Mall_Hall_0
+      213: 3115073560526300247
+    second: CHAR_Cat_Annoyed_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,7 +113,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: BG_Mall_Hall_0
+      name: CHAR_Cat_Annoyed_0
       rect:
         serializedVersion: 2
         x: 0
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1e8fcc879b38bc020800000000000000
-      internalID: 2363127262104844513
+      spriteID: 754a16026e6fa3b20800000000000000
+      internalID: 3115073560526300247
       vertices: []
       indices: 
       edges: []
@@ -147,8 +147,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      BG_Mall_Hall_0: 2363127262104844513
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
