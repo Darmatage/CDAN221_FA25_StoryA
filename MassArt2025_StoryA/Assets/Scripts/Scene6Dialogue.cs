@@ -26,6 +26,11 @@ public class Scene6Dialogue : MonoBehaviour {
         public GameObject Choice1b;
         public GameObject NextScene1Button;
         public GameObject NextScene2Button;
+        public GameObject NextScene3Button;
+        public GameObject NextScene4Button;
+        public GameObject NextScene5Button;
+        public GameObject NextScene6Button;
+        public GameObject NextScene7Button;
         public GameObject nextButton;
         //public AudioSource audioSource1;
         private bool allowSpace = true;
@@ -42,6 +47,11 @@ public class Scene6Dialogue : MonoBehaviour {
                 Choice1b.SetActive(false);
                 NextScene1Button.SetActive(false);
                 NextScene2Button.SetActive(false);
+                NextScene3Button.SetActive(false);
+                NextScene4Button.SetActive(false);
+                NextScene5Button.SetActive(false);
+                NextScene6Button.SetActive(false);
+                NextScene7Button.SetActive(false);
                 nextButton.SetActive(true);
         }
 
@@ -200,6 +210,9 @@ public class Scene6Dialogue : MonoBehaviour {
                         Char1speech.text = "";
                         Char2name.text = "Alex";
                         Char2speech.text = "You really know me so well..";
+                        nextButton.SetActive(false);
+                        allowSpace = false;
+                        NextScene1Button.SetActive(true);
                         primeInt = 100; //REDUNDANT, ENDING
                 }
                 else if (primeInt == 19)
@@ -243,6 +256,10 @@ public class Scene6Dialogue : MonoBehaviour {
                         Char1speech.text = "oh.";
                         Char2name.text = "";
                         Char2speech.text = "";
+                        nextButton.SetActive(false);
+                        allowSpace = false;
+                        NextScene2Button.SetActive(true);
+                        primeInt = 100; // REDUNDANT ENDING
                 }
                 else if (primeInt == 29)
                 {
@@ -306,6 +323,9 @@ public class Scene6Dialogue : MonoBehaviour {
                         Char1speech.text = "...Sorry?";
                         Char2name.text = "";
                         Char2speech.text = "";
+                        nextButton.SetActive(false);
+                        allowSpace = false;
+                        NextScene3Button.SetActive(true);
                         primeInt = 100; //REDUNDANT, ENDING
                 }
                 else if (primeInt == 39)
@@ -334,7 +354,7 @@ public class Scene6Dialogue : MonoBehaviour {
                         Char1name.text = "";
                         Char1speech.text = "";
                         Char2name.text = "Alex";
-                        Char2speech.text = "Is it=";
+                        Char2speech.text = "Is it-";
                 }
                 else if (primeInt == 43)
                 {
@@ -349,6 +369,9 @@ public class Scene6Dialogue : MonoBehaviour {
                         Char1speech.text = "";
                         Char2name.text = "Alex";
                         Char2speech.text = "WOOOOOOOOOOOO";
+                        nextButton.SetActive(false);
+                        allowSpace = false;
+                        NextScene4Button.SetActive(true);
                         primeInt = 100; //REDUNDANT, ENDING
                 }
                 else if (primeInt == 49)
@@ -392,6 +415,9 @@ public class Scene6Dialogue : MonoBehaviour {
                         Char1speech.text = "";
                         Char2name.text = "Alex";
                         Char2speech.text = "It's cold and hard as a rock..";
+                        nextButton.SetActive(false);
+                        allowSpace = false;
+                        NextScene5Button.SetActive(true);
                         primeInt = 100; // REDUNDANT, ENDING
                 }
                 else if (primeInt == 59)
@@ -442,12 +468,15 @@ public class Scene6Dialogue : MonoBehaviour {
                         Char1speech.text = "";
                         Char2name.text = "Alex";
                         Char2speech.text = "Perish.";
+                        nextButton.SetActive(false);
+                        allowSpace = false;
+                        NextScene6Button.SetActive(true);
                         primeInt = 100;
                 }
                 else if (primeInt == 69)
                 {
                         Char1name.text = "YOU";
-                        Char1speech.text = "George and I come bearing gifts!";
+                        Char1speech.text = "I come bearing a gift!";
                         Char2name.text = "";
                         Char2speech.text = "";
                 }
@@ -468,7 +497,7 @@ public class Scene6Dialogue : MonoBehaviour {
                 else if (primeInt == 72)
                 {
                         Char1name.text = "YOU";
-                        Char1speech.text = "There's another gift...too?";
+                        Char1speech.text = "...George got you another gift...at least?";
                         Char2name.text = "";
                         Char2speech.text = "";
                 }
@@ -478,6 +507,9 @@ public class Scene6Dialogue : MonoBehaviour {
                         Char1speech.text = "";
                         Char2name.text = "Alex";
                         Char2speech.text = "I can't believe you.";
+                        nextButton.SetActive(false);
+                        allowSpace = false;
+                        NextScene7Button.SetActive(true);
                         primeInt = 100;
                 }
      }
@@ -507,10 +539,30 @@ public class Scene6Dialogue : MonoBehaviour {
         }
 
         public void SceneChange1(){
-               SceneManager.LoadScene("Scene2a");
+               SceneManager.LoadScene("EndWin_Succulent");
        }
-        public void SceneChange2(){
-                SceneManager.LoadScene("Scene2b");
+        public void SceneChange2()
+        {
+                SceneManager.LoadScene("EndLose_Candle");
+        }
+        public void SceneChange3()
+        {
+                SceneManager.LoadScene("EndLose_NoGift");
+        }
+        public void SceneChange4()
+        {
+                SceneManager.LoadScene("EndWin_Purple");
+        }
+        public void SceneChange5()
+        {
+                SceneManager.LoadScene("EndLose_Burger");
+        }
+        public void SceneChange6()
+        {
+                SceneManager.LoadScene("EndLose_2Chair");
+        }
+        public void SceneChange7(){
+                SceneManager.LoadScene("EndLose_Chair");
         }
 }
 

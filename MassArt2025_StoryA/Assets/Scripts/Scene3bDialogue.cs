@@ -239,6 +239,7 @@ public void Next(){
         public void SceneChange1(){
                 GameHandler.ChairCount += 1;
                 GameHandler.ChairGift = true;
+                GameHandler.NoGift = false;
                SceneManager.LoadScene("Scene6");
         }
         public void SceneChange2()

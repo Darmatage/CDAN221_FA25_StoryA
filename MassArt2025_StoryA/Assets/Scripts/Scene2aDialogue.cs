@@ -70,6 +70,10 @@ public class Scene2aDialogue : MonoBehaviour {
                         {
                                 primeInt = 100;
                         }
+                        else if (GameHandler.BeenToMall == false)
+                        {
+                                primeInt = 1;
+                        }
                 }
                 else if (primeInt == 2)
                 {
@@ -165,12 +169,25 @@ public class Scene2aDialogue : MonoBehaviour {
                         Char1speech.text = "...";
                         Char2name.text = "";
                         Char2speech.text = "";
-                // Turn off the "Next" button, turn on "Scene" button/s
-                nextButton.SetActive(false);
-                allowSpace = false;
-                NextScene2Button.SetActive(true);
-                NextScene1Button.SetActive(true);
-                NextScene3Button.SetActive(true);
+                        // Turn off the "Next" button, turn on "Scene" button/s
+                        nextButton.SetActive(false);
+                        allowSpace = false;
+                        NextScene2Button.SetActive(true);
+                        NextScene1Button.SetActive(true);
+                        NextScene3Button.SetActive(true);
+                }
+                else if (primeInt == 101)
+                {
+                        Char1name.text = "YOU";
+                        Char1speech.text = "Well that failed, what else is there?";
+                        Char2name.text = "";
+                        Char2speech.text = "";
+                        // Turn off the "Next" button, turn on "Scene" button/s
+                        nextButton.SetActive(false);
+                        allowSpace = false;
+                        NextScene2Button.SetActive(true);
+                        NextScene1Button.SetActive(true);
+                        NextScene3Button.SetActive(true);
                 }
 
       //Please do NOT delete this final bracket that ends the Next() function:
