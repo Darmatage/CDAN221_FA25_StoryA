@@ -42,6 +42,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Scene5a.unity
     guid: c0fee4be9c454fd42a7e10867d7d0b01
   - enabled: 1
+    path: Assets/Scenes/EndLose_Sleep.unity
+    guid: 3981f2c8900e54fb4b805ba473425c98
+  - enabled: 1
     path: Assets/Scenes/Scene5b.unity
     guid: f84ea52a6fcf1eb46a0332c2fce683e8
   - enabled: 1

@@ -85,6 +85,8 @@ public void Next(){
                 }
                 else if (primeInt == 4)
                 {
+                        ArtChar2c.SetActive(true);
+                        ArtChar2a.SetActive(false);
                         Char1name.text = "";
                         Char1speech.text = "";
                         Char2name.text = "Cat";
@@ -105,6 +107,8 @@ public void Next(){
                 else if (primeInt == 6)
                 {
                         //gameHandler.AddPlayerStat(1);
+                        ArtChar2b.SetActive(true);
+                        ArtChar2c.SetActive(false);
                         Char1name.text = "";
                         Char1speech.text = "";
                         Char2name.text = "Cat";
@@ -119,6 +123,8 @@ public void Next(){
                 }
                 else if (primeInt == 8)
                 {
+                        ArtChar2a.SetActive(true);
+                        ArtChar2b.SetActive(false);
                         Char1name.text = "";
                         Char1speech.text = "";
                         Char2name.text = "Cat";
@@ -126,6 +132,8 @@ public void Next(){
                 }
                 else if (primeInt == 9)
                 {
+                        ArtChar2a.SetActive(false);
+                        ArtChar2c.SetActive(true);
                         Char1name.text = "YOU";
                         Char1speech.text = "Haha, no.";
                         Char2name.text = "";
@@ -162,6 +170,9 @@ public void Next(){
                 }
                 else if (primeInt == 14)
                 {
+                        ArtChar2b.SetActive(true);
+                        ArtChar2a.SetActive(false);
+                        ArtChar2c.SetActive(false);
                         Char1name.text = "";
                         Char1speech.text = "";
                         Char2name.text = "Cat";
@@ -169,6 +180,8 @@ public void Next(){
                 }
                 else if (primeInt == 15)
                 {
+                        ArtChar2a.SetActive(true);
+                        ArtChar2b.SetActive(false);
                         Char1name.text = "YOU";
                         Char1speech.text = "...Do you know anything I could get for Alex? It's their birthday.";
                         Char2name.text = "";
@@ -176,6 +189,9 @@ public void Next(){
                 }
                 else if (primeInt == 16)
                 {
+                        ArtChar2b.SetActive(false);
+                        ArtChar2c.SetActive(true);
+                        ArtChar2a.SetActive(false);
                         Char1name.text = "";
                         Char1speech.text = "";
                         Char2name.text = "Cat";
@@ -183,6 +199,8 @@ public void Next(){
                 }
                 else if (primeInt == 15)
                 {
+                        ArtChar2c.SetActive(false);
+                        ArtChar2a.SetActive(true);
                         Char1name.text = "YOU";
                         Char1speech.text = "Hey! They're not bad!";
                         Char2name.text = "";
@@ -190,6 +208,8 @@ public void Next(){
                 }
                 else if (primeInt == 16)
                 {
+                        ArtChar2c.SetActive(true);
+                        ArtChar2a.SetActive(false);
                         Char1name.text = "";
                         Char1speech.text = "";
                         Char2name.text = "Cat";
@@ -197,6 +217,8 @@ public void Next(){
                 }
                 else if (primeInt == 17)
                 {
+                        ArtChar2c.SetActive(false);
+                        ArtChar2a.SetActive(true);
                         Char1name.text = "YOU";
                         Char1speech.text = "Well? Any Ideas?";
                         Char2name.text = "";
@@ -204,6 +226,8 @@ public void Next(){
                 }
                 else if (primeInt == 18)
                 {
+                        ArtChar2b.SetActive(true);
+                        ArtChar2a.SetActive(false);
                         Char1name.text = "";
                         Char1speech.text = "";
                         Char2name.text = "Cat";
@@ -211,6 +235,8 @@ public void Next(){
                 }
                 else if (primeInt == 19)
                 {
+                        ArtChar2a.SetActive(true);
+                        ArtChar2b.SetActive(false);
                         Char1name.text = "";
                         Char1speech.text = "";
                         Char2name.text = "Cat";
@@ -225,6 +251,8 @@ public void Next(){
                 }
                 else if (primeInt == 21)
                 {
+                        ArtChar2b.SetActive(true);
+                        ArtChar2a.SetActive(false);
                         Char1name.text = "";
                         Char1speech.text = "";
                         Char2name.text = "Cat";
@@ -232,6 +260,7 @@ public void Next(){
                 }
                 else if (primeInt == 22)
                 {
+                        ArtChar2b.SetActive(false);
                         Char1name.text = "YOU";
                         Char1speech.text = "Alrighty then.";
                         Char2name.text = "";
