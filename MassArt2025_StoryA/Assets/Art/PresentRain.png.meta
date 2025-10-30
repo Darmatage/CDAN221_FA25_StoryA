@@ -1,0 +1,572 @@
+fileFormatVersion: 2
+guid: 2b970c743394e4725867ccbbbf602dfe
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6092341180170095265
+    second: PresentRain_0
+  - first:
+      213: 2805054786924315815
+    second: PresentRain_1
+  - first:
+      213: 8490051023014585768
+    second: PresentRain_2
+  - first:
+      213: 1010340768255283469
+    second: PresentRain_3
+  - first:
+      213: 2940308171446126895
+    second: PresentRain_4
+  - first:
+      213: -1854706170819717542
+    second: PresentRain_5
+  - first:
+      213: 1713819116280198702
+    second: PresentRain_6
+  - first:
+      213: 3468607771140625058
+    second: PresentRain_7
+  - first:
+      213: 7918995297295152835
+    second: PresentRain_8
+  - first:
+      213: -4269400615553077757
+    second: PresentRain_9
+  - first:
+      213: 2939618071270641042
+    second: PresentRain_10
+  - first:
+      213: -7875999493008859375
+    second: PresentRain_11
+  - first:
+      213: 562264072921723875
+    second: PresentRain_12
+  - first:
+      213: -8927954448604866041
+    second: PresentRain_13
+  - first:
+      213: 2439145892503774251
+    second: PresentRain_14
+  - first:
+      213: -1416974180448389624
+    second: PresentRain_15
+  - first:
+      213: 7752404993122781085
+    second: PresentRain_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PresentRain_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 529
+        width: 227
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f553a79a9f7a37ba0800000000000000
+      internalID: -6092341180170095265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PresentRain_1
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 629
+        width: 171
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a40226877e8de620800000000000000
+      internalID: 2805054786924315815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PresentRain_2
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 688
+        width: 85
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a5e9b75c68b2d570800000000000000
+      internalID: 8490051023014585768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PresentRain_3
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 613
+        width: 153
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0193f16393750e00800000000000000
+      internalID: 1010340768255283469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PresentRain_4
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 193
+        width: 376
+        height: 387
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f29893914b21ec820800000000000000
+      internalID: 2940308171446126895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PresentRain_5
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 563
+        width: 97
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a56d0957092c246e0800000000000000
+      internalID: -1854706170819717542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PresentRain_6
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 491
+        width: 162
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e26b723f765b8c710800000000000000
+      internalID: 1713819116280198702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PresentRain_7
+      rect:
+        serializedVersion: 2
+        x: 1039
+        y: 478
+        width: 121
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a21fffe368f22030800000000000000
+      internalID: 3468607771140625058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PresentRain_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 375
+        width: 52
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c63449244ce5ed60800000000000000
+      internalID: 7918995297295152835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PresentRain_9
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 372
+        width: 166
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30eef1aa2ca00c4c0800000000000000
+      internalID: -4269400615553077757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PresentRain_10
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 103
+        width: 257
+        height: 282
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29dc761af0f9bc820800000000000000
+      internalID: 2939618071270641042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PresentRain_11
+      rect:
+        serializedVersion: 2
+        x: 1191
+        y: 327
+        width: 89
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11fdc00a034d2b290800000000000000
+      internalID: -7875999493008859375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PresentRain_12
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 256
+        width: 49
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e3b67002309dc700800000000000000
+      internalID: 562264072921723875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PresentRain_13
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 0
+        width: 302
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70ad9083bb8891480800000000000000
+      internalID: -8927954448604866041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PresentRain_14
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 301
+        width: 76
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b246a0e144699d120800000000000000
+      internalID: 2439145892503774251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PresentRain_15
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 0
+        width: 364
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80639768d75e55ce0800000000000000
+      internalID: -1416974180448389624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PresentRain_16
+      rect:
+        serializedVersion: 2
+        x: 1148
+        y: 13
+        width: 100
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d974c0a6443169b60800000000000000
+      internalID: 7752404993122781085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      PresentRain_0: -6092341180170095265
+      PresentRain_1: 2805054786924315815
+      PresentRain_10: 2939618071270641042
+      PresentRain_11: -7875999493008859375
+      PresentRain_12: 562264072921723875
+      PresentRain_13: -8927954448604866041
+      PresentRain_14: 2439145892503774251
+      PresentRain_15: -1416974180448389624
+      PresentRain_16: 7752404993122781085
+      PresentRain_2: 8490051023014585768
+      PresentRain_3: 1010340768255283469
+      PresentRain_4: 2940308171446126895
+      PresentRain_5: -1854706170819717542
+      PresentRain_6: 1713819116280198702
+      PresentRain_7: 3468607771140625058
+      PresentRain_8: 7918995297295152835
+      PresentRain_9: -4269400615553077757
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
