@@ -42,7 +42,23 @@ public class GameHandler : MonoBehaviour
     //        scoreTemp.text = "Score: " + score; }
 
     public void StartGame()
-    {
+	{
+		//reset atats:
+		ChairCount=0;
+		SucculentGift = false;
+		CandleGift = false;
+		NoGift = true;
+		PurpleNotebookGift = false;
+		BurgerGift = false;
+		ChairGift = false;
+		BeenToMall = false;
+
+		BeenToGeneralStore = false;
+		BeenToPlantStore = false;
+		BeenToArtStore = false;
+		BeenToFoodCourt = false;
+		BeenToCandleStore = false;
+
         SceneManager.LoadScene("Scene1");
 
     }
