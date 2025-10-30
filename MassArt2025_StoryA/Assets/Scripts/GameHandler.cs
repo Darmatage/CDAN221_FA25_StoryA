@@ -19,6 +19,10 @@ public class GameHandler : MonoBehaviour
     public static bool BeenToMall = false;
 
     public static bool BeenToGeneralStore = false;
+    public static bool BeenToPlantStore = false;
+    public static bool BeenToArtStore = false;
+    public static bool BeenToFoodCourt = false;
+    public static bool BeenToCandleStore = false;
 
     void Update()
     {

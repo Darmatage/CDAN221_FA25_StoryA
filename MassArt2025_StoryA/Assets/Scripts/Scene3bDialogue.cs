@@ -72,6 +72,7 @@ public void Next(){
                 }
                 else if (primeInt == 2)
                 {
+                        GameHandler.BeenToGeneralStore = true;
                         DialogueDisplay.SetActive(true);
                         Char1name.text = "YOU";
                         Char1speech.text = "OK. Let's try the General store.";

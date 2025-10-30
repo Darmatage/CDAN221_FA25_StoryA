@@ -23,9 +23,6 @@ public class Scene5bDialogue : MonoBehaviour {
         public GameObject ArtBG1;
         public GameObject Choice1a;
         public GameObject Choice1b;
-        public GameObject Choice2a;
-        public GameObject Choice2b;
-        public GameObject Choice2c;
         public GameObject NextScene1Button;
         public GameObject NextScene2Button;
         public GameObject NextScene3Button;
@@ -42,9 +39,6 @@ public class Scene5bDialogue : MonoBehaviour {
              ArtBG1.SetActive(true);
              Choice1a.SetActive(false);
              Choice1b.SetActive(false);
-             Choice2a.SetActive(false);
-             Choice2b.SetActive(false);
-             Choice2c.SetActive(false);
              NextScene1Button.SetActive(false);
              NextScene2Button.SetActive(false);
              NextScene3Button.SetActive(false);
@@ -76,10 +70,11 @@ public void Next(){
                 }
                 else if (primeInt == 2)
                 {
+                        GameHandler.BeenToCandleStore = true;
                         ArtChar2a.SetActive(true);
                         DialogueDisplay.SetActive(true);
                         Char1name.text = "YOU";
-                        Char1speech.text = "Hello! Do you have any succulents I could buy?";
+                        Char1speech.text = "";
                         Char2name.text = "";
                         Char2speech.text = "";
                 }
@@ -88,13 +83,13 @@ public void Next(){
                         Char1name.text = "";
                         Char1speech.text = "";
                         Char2name.text = "Clerk";
-                        Char2speech.text = "Succulents??";
+                        Char2speech.text = "";
                         //gameHandler.AddPlayerStat(1);
                 }
                 else if (primeInt == 4)
                 {
                         Char1name.text = "YOU";
-                        Char1speech.text = "Yeah, those small...like..cacti? Whatever they are.";
+                        Char1speech.text = "";
                         Char2name.text = "";
                         Char2speech.text = "";
                 }
@@ -103,7 +98,7 @@ public void Next(){
                         Char1name.text = "";
                         Char1speech.text = "";
                         Char2name.text = "Clerk";
-                        Char2speech.text = "tsk.";
+                        Char2speech.text = "";
                 }
                 else if (primeInt == 6)
                 {
@@ -111,12 +106,12 @@ public void Next(){
                         Char1name.text = "";
                         Char1speech.text = "";
                         Char2name.text = "Clerk";
-                        Char2speech.text = "Ignorant one wants a succulent...";
+                        Char2speech.text = "";
                 }
                 else if (primeInt == 7)
                 {
                         Char1name.text = "YOU";
-                        Char1speech.text = "Listen, can I just get a succulent?";
+                        Char1speech.text = "";
                         Char2name.text = "";
                         Char2speech.text = "";
                 }
@@ -125,12 +120,12 @@ public void Next(){
                         Char1name.text = "";
                         Char1speech.text = "";
                         Char2name.text = "Clerk";
-                        Char2speech.text = "Of course, Of course...";
+                        Char2speech.text = "";
                 }
                 else if (primeInt == 9)
                 {
                         Char1name.text = "YOU";
-                        Char1speech.text = "...";
+                        Char1speech.text = "";
                         Char2name.text = "";
                         Char2speech.text = "";
                 }
@@ -139,14 +134,14 @@ public void Next(){
                         Char1name.text = "";
                         Char1speech.text = "";
                         Char2name.text = "Clerk";
-                        Char2speech.text = "Would you like the red tinged one? The blue one? Oo! Or the green one?";
+                        Char2speech.text = "";
                 }
                 else if (primeInt == 11)
                 {
                         Char1name.text = "";
                         Char1speech.text = "";
                         Char2name.text = "Clerk";
-                        Char2speech.text = "Maybe even purple?";
+                        Char2speech.text = "";
                         // Turn off the "Next" button, turn on "Choice" buttons
                         nextButton.SetActive(false);
                         allowSpace = false;
@@ -158,12 +153,12 @@ public void Next(){
                         Char1name.text = "";
                         Char1speech.text = "";
                         Char2name.text = "Clerk";
-                        Char2speech.text = "AHAH NO! I lied! Only little red here.";
+                        Char2speech.text = "";
                 }
                 else if (primeInt == 13)
                 {
                         Char1name.text = "YOU";
-                        Char1speech.text = "I don't think I like you.";
+                        Char1speech.text = "";
                         Char2name.text = "";
                         Char2speech.text = "";
                         primeInt = 15;
@@ -173,12 +168,12 @@ public void Next(){
                         Char1name.text = "";
                         Char1speech.text = "";
                         Char2name.text = "Clerk";
-                        Char2speech.text = "Colors, colors! Colors are great! Well. We actually only have the red one.";
+                        Char2speech.text = "";
                 }
                 else if (primeInt == 15)
                 {
                         Char1name.text = "YOU";
-                        Char1speech.text = "Uh...ok?";
+                        Char1speech.text = "";
                         Char2name.text = "";
                         Char2speech.text = "";
                 }
@@ -187,12 +182,12 @@ public void Next(){
                         Char1name.text = "";
                         Char1speech.text = "";
                         Char2name.text = "Clerk";
-                        Char2speech.text = "ehehee";
+                        Char2speech.text = "";
                 }
                 else if (primeInt == 15)
                 {
                         Char1name.text = "YOU";
-                        Char1speech.text = "Can I please just buy the succulent?";
+                        Char1speech.text = "";
                         Char2name.text = "";
                         Char2speech.text = "";
                 }
@@ -201,7 +196,7 @@ public void Next(){
                         Char1name.text = "";
                         Char1speech.text = "";
                         Char2name.text = "Clerk";
-                        Char2speech.text = "mm m mmmm!";
+                        Char2speech.text = "";
                 }
                 else if (primeInt == 17)
                 {
@@ -211,18 +206,11 @@ public void Next(){
                         Char2speech.text = "";
                         nextButton.SetActive(false);
                         allowSpace = false;
-                        Choice2a.SetActive(true);
-                        Choice2b.SetActive(true);
-                        Choice2c.SetActive(true);
-                }
-                else if (primeInt == 18)
-                {
-                        nextButton.SetActive(false);
-                        allowSpace = false;
                         NextScene2Button.SetActive(true);
                         NextScene1Button.SetActive(true);
                         NextScene3Button.SetActive(true);
                 }
+
 
 
       //Please do NOT delete this final bracket that ends the Next() function:
@@ -251,53 +239,20 @@ public void Next(){
                 nextButton.SetActive(true);
                 allowSpace = true;
         }
-        public void Choice2aFunct(){
-                Char1name.text = "";
-                Char1speech.text = "Succulent acquired";
-                Char2name.text = "";
-                Char2speech.text = "";
-                GameHandler.SucculentGift = true;
-                GameHandler.NoGift = false;
-                Choice2a.SetActive(false);
-                Choice2b.SetActive(false);
-                Choice2c.SetActive(false);
-                NextScene1Button.SetActive(true);
-                allowSpace = true;
-        }
-        public void Choice2bFunct(){
-                Char1name.text = "YOU";
-                Char1speech.text = "Guess I'll go back.";
-                Char2name.text = "";
-                Char2speech.text = "";
-                Choice2a.SetActive(false);
-                Choice2b.SetActive(false);
-                Choice2c.SetActive(false);
-                NextScene2Button.SetActive(true);
-                allowSpace = true;
-        }
-        public void Choice2cFunct()
-        {
-                Char1name.text = "";
-                Char1speech.text = "Gift Not Acquired!";
-                Char2name.text = "";
-                Char2speech.text = "";
-                GameHandler.NoGift = true;
-                Choice2a.SetActive(false);
-                Choice2b.SetActive(false);
-                Choice2c.SetActive(false);
-                NextScene3Button.SetActive(true);
-                allowSpace = true;
 
-        }
         public void SceneChange1(){
+                GameHandler.CandleGift = true;
+                GameHandler.NoGift = false;
                SceneManager.LoadScene("Scene6");
         }
         public void SceneChange2()
         {
-                SceneManager.LoadScene("Scene2a");
+                GameHandler.CandleGift = true;
+                GameHandler.NoGift = false;
+                SceneManager.LoadScene("Scene6");
         }
         public void SceneChange3()
         {
-                SceneManager.LoadScene("Scene6");
+                SceneManager.LoadScene("Scene2a");
         }
 }

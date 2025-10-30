@@ -78,6 +78,7 @@ public void Next(){
                 {
                         ArtChar2a.SetActive(true);
                         DialogueDisplay.SetActive(true);
+                        GameHandler.BeenToPlantStore = true;
                         Char1name.text = "YOU";
                         Char1speech.text = "Hello! Do you have any succulents I could buy?";
                         Char2name.text = "";

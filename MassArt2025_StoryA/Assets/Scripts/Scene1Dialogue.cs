@@ -24,8 +24,8 @@ public class Scene1Dialogue : MonoBehaviour {
         public GameObject ArtBG1;
         public GameObject Choice1a;
 		public GameObject Choice1b;
-		        public GameObject Choice2a;
-        		public GameObject Choice2b;
+		public GameObject Choice2a;
+        public GameObject Choice2b;
         public GameObject NextScene1Button;
 		public GameObject NextScene2Button;
 		public GameObject NextScene3Button;
@@ -35,19 +35,19 @@ public class Scene1Dialogue : MonoBehaviour {
 
 // Set initial visibility. Added images or buttons need to also be SetActive(false);
         void Start(){  
-             DialogueDisplay.SetActive(false);
+        DialogueDisplay.SetActive(false);
 		ArtChar2a.SetActive(false);
 		ArtChar2b.SetActive(false);
 		ArtChar2c.SetActive(false);
-             ArtBG1.SetActive(true);
-             Choice1a.SetActive(false);
+        ArtBG1.SetActive(true);
+        Choice1a.SetActive(false);
 		Choice1b.SetActive(false);
-			  	Choice2a.SetActive(false);
-             	Choice2b.SetActive(false);
-             NextScene1Button.SetActive(false);
+		Choice2a.SetActive(false);
+        Choice2b.SetActive(false);
+        NextScene1Button.SetActive(false);
 		NextScene2Button.SetActive(false);
-			 NextScene3Button.SetActive(false);
-             nextButton.SetActive(true);
+		NextScene3Button.SetActive(false);
+        nextButton.SetActive(true);
         }
 
 // Use the spacebar as a faster "Next" button:

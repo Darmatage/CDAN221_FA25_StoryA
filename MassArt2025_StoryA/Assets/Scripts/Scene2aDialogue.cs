@@ -27,6 +27,9 @@ public class Scene2aDialogue : MonoBehaviour {
         public GameObject NextScene1Button;
         public GameObject NextScene2Button;
         public GameObject NextScene3Button;
+        public GameObject NextScene4Button;
+        public GameObject NextScene5Button;
+        public GameObject NextScene6Button;
         public GameObject nextButton;
        //public AudioSource audioSource1;
         private bool allowSpace = true;
@@ -41,6 +44,9 @@ public class Scene2aDialogue : MonoBehaviour {
              NextScene1Button.SetActive(false);
              NextScene2Button.SetActive(false);
              NextScene3Button.SetActive(false);
+             NextScene4Button.SetActive(false);
+             NextScene5Button.SetActive(false);
+             NextScene6Button.SetActive(false);
              nextButton.SetActive(true);
         }
 
@@ -66,24 +72,28 @@ public class Scene2aDialogue : MonoBehaviour {
                 if (primeInt == 1)
                 {
                         // audioSource1.Play();
-                        if (GameHandler.BeenToMall == true)
-                        {
-                                primeInt = 100;
-                        }
-                        else if (GameHandler.BeenToMall == false)
-                        {
-                                primeInt = 1;
-                        }
                 }
                 else if (primeInt == 2)
                 {
-                        ArtChar1a.SetActive(true);
-                        DialogueDisplay.SetActive(true);
-                        Char1name.text = "";
-                        Char1speech.text = "";
-                        Char2name.text = "George";
-                        Char2speech.text = "Hay! Good too see you!";
-                        GameHandler.BeenToMall = true;
+                        if (GameHandler.BeenToMall == true)
+                        {
+                                primeInt = 100;
+                                DialogueDisplay.SetActive(true);
+                                Char1name.text = "YOU";
+                                Char1speech.text = "Well, that failed. Time to try again?";
+                                Char2name.text = "";
+                                Char2speech.text = "";
+                        }
+                        else if (GameHandler.BeenToMall == false)
+                        {
+                                GameHandler.BeenToMall = true;
+                                ArtChar1a.SetActive(true);
+                                DialogueDisplay.SetActive(true);
+                                Char1name.text = "";
+                                Char1speech.text = "";
+                                Char2name.text = "George";
+                                Char2speech.text = "Hay! Good too see you!";
+                        }
                 }
                 else if (primeInt == 3)
                 {
@@ -179,15 +189,53 @@ public class Scene2aDialogue : MonoBehaviour {
                 else if (primeInt == 101)
                 {
                         Char1name.text = "YOU";
-                        Char1speech.text = "Well that failed, what else is there?";
+                        Char1speech.text = "";
                         Char2name.text = "";
                         Char2speech.text = "";
                         // Turn off the "Next" button, turn on "Scene" button/s
                         nextButton.SetActive(false);
                         allowSpace = false;
-                        NextScene2Button.SetActive(true);
-                        NextScene1Button.SetActive(true);
-                        NextScene3Button.SetActive(true);
+                        if (GameHandler.BeenToArtStore == true)
+                        {
+                                NextScene1Button.SetActive(false);
+                        }
+                        else if (GameHandler.BeenToArtStore == false)
+                        {
+                                NextScene1Button.SetActive(true);
+                        }
+                        if (GameHandler.BeenToGeneralStore == true)
+                        {
+                                NextScene2Button.SetActive(false);
+                        }
+                        else if (GameHandler.BeenToGeneralStore == false)
+                        {
+                                NextScene2Button.SetActive(true);
+                        }
+                        if (GameHandler.BeenToFoodCourt == true)
+                        {
+                                NextScene3Button.SetActive(false);
+                        }
+                        else if (GameHandler.BeenToFoodCourt == false)
+                        {
+                                NextScene3Button.SetActive(true);
+                        }
+                        if (GameHandler.BeenToPlantStore == true)
+                        {
+                                NextScene4Button.SetActive(false);
+                        }
+                        else if (GameHandler.BeenToPlantStore == false)
+                        {
+                                NextScene4Button.SetActive(true);
+                        }
+                        if (GameHandler.BeenToCandleStore == true)
+                        {
+                                NextScene5Button.SetActive(false);
+                        }
+                        else if (GameHandler.BeenToCandleStore == false)
+                        {
+                                NextScene5Button.SetActive(true);
+                        }
+                        NextScene6Button.SetActive(true);
                 }
 
       //Please do NOT delete this final bracket that ends the Next() function:
@@ -229,5 +277,17 @@ public class Scene2aDialogue : MonoBehaviour {
         public void SceneChange3()
         {
                 SceneManager.LoadScene("Scene3c");
+        }
+        public void SceneChange4()
+        {
+                SceneManager.LoadScene("Scene5a");
+        }
+        public void SceneChange5()
+        {
+                SceneManager.LoadScene("Scene5b");
+        }
+        public void SceneChange6()
+        {
+                SceneManager.LoadScene("Scene6");
         }
 }
