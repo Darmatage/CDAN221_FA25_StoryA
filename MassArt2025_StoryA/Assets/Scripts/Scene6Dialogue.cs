@@ -22,6 +22,7 @@ public class Scene6Dialogue : MonoBehaviour {
         public GameObject ArtChar2c;
         public GameObject ArtChar2d;
          public GameObject ArtChar2e; //books
+         public GameObject ArtChar2f;
         public GameObject ArtBG1;
         public GameObject Choice1a;
         public GameObject Choice1b;
@@ -44,6 +45,7 @@ public class Scene6Dialogue : MonoBehaviour {
                 ArtChar2c.SetActive(false);
                 ArtChar2d.SetActive(false);
                 ArtChar2e.SetActive(false);
+                ArtChar2f.SetActive(false);
                 ArtBG1.SetActive(true);
                 Choice1a.SetActive(false);
                 Choice1b.SetActive(false);
@@ -82,7 +84,7 @@ public class Scene6Dialogue : MonoBehaviour {
                 }
                 else if (primeInt == 2)
                 {
-                        ArtChar2d.SetActive(true);
+                        ArtChar2f.SetActive(true);
                         DialogueDisplay.SetActive(true);
                         Char1name.text = "";
                         Char1speech.text = "";
@@ -105,6 +107,8 @@ public class Scene6Dialogue : MonoBehaviour {
 //choice 1a
                 else if (primeInt == 4)
                 {
+                        ArtChar2f.SetActive(false);
+                        ArtChar2d.SetActive(true);
                         Char1name.text = "";
                         Char1speech.text = "";
                         Char2name.text = "Alex";
@@ -122,6 +126,8 @@ public class Scene6Dialogue : MonoBehaviour {
 //choice 1b
                 else if (primeInt == 6)
                 {
+                         ArtChar2f.SetActive(false);
+                        ArtChar2d.SetActive(true);
                         Char1name.text = "";
                         Char1speech.text = "";
                         Char2name.text = "Alex";
@@ -136,6 +142,8 @@ public class Scene6Dialogue : MonoBehaviour {
                 }
                 else if (primeInt == 8)
                 {
+                         ArtChar2d.SetActive(false);
+                        ArtChar2f.SetActive(true);
                         Char1name.text = "";
                         Char1speech.text = "";
                         Char2name.text = "Alex";
@@ -183,8 +191,8 @@ public class Scene6Dialogue : MonoBehaviour {
                 }
                 else if (primeInt == 10)
                 {
-                        ArtChar2d.SetActive(false);
-                        ArtChar2a.SetActive(true);
+                        ArtChar2f.SetActive(false);
+                        ArtChar2d.SetActive(true);
                         Char1name.text = "";
                         Char1speech.text = "";
                         Char2name.text = "Alex";
@@ -199,7 +207,7 @@ public class Scene6Dialogue : MonoBehaviour {
                 }
                 else if (primeInt == 12)
                 {
-                        ArtChar2a.SetActive(false);
+                        ArtChar2d.SetActive(false);
                         ArtChar2c.SetActive(true);
                         Char1name.text = "";
                         Char1speech.text = "";
@@ -235,6 +243,8 @@ public class Scene6Dialogue : MonoBehaviour {
                 }
                 else if (primeInt == 20)
                 {
+                         ArtChar2f.SetActive(false);
+                        ArtChar2d.SetActive(true);
                         Char1name.text = "";
                         Char1speech.text = "";
                         Char2name.text = "Alex";
@@ -288,7 +298,7 @@ public class Scene6Dialogue : MonoBehaviour {
                 }
                 else if (primeInt == 30)
                 {
-                        ArtChar2d.SetActive(false);
+                        ArtChar2f.SetActive(false);
                         ArtChar2a.SetActive(true);
                         Char1name.text = "";
                         Char1speech.text = "";
@@ -361,6 +371,8 @@ public class Scene6Dialogue : MonoBehaviour {
                 }
                 else if (primeInt == 40)
                 {
+                         ArtChar2f.SetActive(false);
+                        ArtChar2a.SetActive(true);
                         Char1name.text = "";
                         Char1speech.text = "";
                         Char2name.text = "Alex";
@@ -378,8 +390,9 @@ public class Scene6Dialogue : MonoBehaviour {
                         ArtChar2a.SetActive(false);
                          ArtChar2b.SetActive(false);
                          ArtChar2c.SetActive(false);
-                         ArtChar2d.SetActive(true); //neutral
+                         ArtChar2d.SetActive(false); //neutral
                          ArtChar2e.SetActive(false);
+                          ArtChar2f.SetActive(true);
 
                         Char1name.text = "";
                         Char1speech.text = "";
@@ -395,7 +408,7 @@ public class Scene6Dialogue : MonoBehaviour {
                 }
                 else if (primeInt == 44)
                 {
-                        ArtChar2d.SetActive(false);
+                        ArtChar2f.SetActive(false);
                          ArtChar2e.SetActive(true);
                         Char1name.text = "";
                         Char1speech.text = "";
@@ -417,8 +430,8 @@ public class Scene6Dialogue : MonoBehaviour {
                 }
                 else if (primeInt == 50)
                 {
-                         ArtChar2d.SetActive(false);
-                        ArtChar2a.SetActive(true);
+                         ArtChar2f.SetActive(false);
+                        ArtChar2d.SetActive(true);
                         Char1name.text = "";
                         Char1speech.text = "";
                         Char2name.text = "Alex";
@@ -440,8 +453,8 @@ public class Scene6Dialogue : MonoBehaviour {
                 }
                 else if (primeInt == 53)
                 {
-                        ArtChar2a.SetActive(false);
-                        ArtChar2b.SetActive(true);
+                        ArtChar2d.SetActive(false);
+                        ArtChar2a.SetActive(true);
                         Char1name.text = "";
                         Char1speech.text = "";
                         Char2name.text = "Alex";
@@ -449,6 +462,8 @@ public class Scene6Dialogue : MonoBehaviour {
                 }
                 else if (primeInt == 54)
                 {
+                         ArtChar2a.SetActive(false);
+                        ArtChar2b.SetActive(true);
                         Char1name.text = "";
                         Char1speech.text = "";
                         Char2name.text = "Alex";
@@ -475,7 +490,7 @@ public class Scene6Dialogue : MonoBehaviour {
                 }
                 else if (primeInt == 61)
                 {
-                        ArtChar2d.SetActive(false);
+                        ArtChar2f.SetActive(false);
                         ArtChar2a.SetActive(true);
                         Char1name.text = "";
                         Char1speech.text = "";
@@ -529,7 +544,7 @@ public class Scene6Dialogue : MonoBehaviour {
                 }
                 else if (primeInt == 70)
                 {
-                        ArtChar2d.SetActive(false);
+                        ArtChar2f.SetActive(false);
                         ArtChar2a.SetActive(true);
                         Char1name.text = "";
                         Char1speech.text = "";

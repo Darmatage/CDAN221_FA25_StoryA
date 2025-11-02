@@ -100,6 +100,8 @@ public class Scene1Dialogue : MonoBehaviour {
 		}
 		else if (primeInt == 5)
 		{
+			ArtChar2a.SetActive(false);
+            ArtChar2c.SetActive(true);
 			Char1name.text = "";
 			Char1speech.text = "";
 			Char2name.text = "George";
@@ -130,6 +132,8 @@ public class Scene1Dialogue : MonoBehaviour {
 		// after choice 1a
 		else if (primeInt == 20)
 		{
+			ArtChar2c.SetActive(false);
+            ArtChar2b.SetActive(true);
 
 			Char1name.text = "";
 			Char1speech.text = "";
@@ -139,7 +143,6 @@ public class Scene1Dialogue : MonoBehaviour {
 
 		else if (primeInt == 21)
 		{
-
 			Char1name.text = "";
 			Char1speech.text = "";
 			Char2name.text = "George";
@@ -166,6 +169,8 @@ public class Scene1Dialogue : MonoBehaviour {
 		// after choice 1b
 		else if (primeInt == 30)
 		{
+			ArtChar2c.SetActive(false);
+            ArtChar2a.SetActive(true);
 			Char1name.text = "";
 			Char1speech.text = "";
 			Char2name.text = "GEORGE";
@@ -184,6 +189,9 @@ public class Scene1Dialogue : MonoBehaviour {
 		//After both hoices:
 		else if (primeInt == 40)
 		{
+			ArtChar2c.SetActive(true);
+            ArtChar2b.SetActive(false);
+            ArtChar2a.SetActive(false);
 			Char1name.text = "";
 			Char1speech.text = "";
 			Char2name.text = "George";
@@ -205,6 +213,8 @@ public class Scene1Dialogue : MonoBehaviour {
 		}
 		else if (primeInt == 43)
 		{
+			ArtChar2a.SetActive(false);
+            ArtChar2b.SetActive(true);
 			Char1name.text = "";
 			Char1speech.text = "";
 			Char2name.text = "George";
@@ -219,6 +229,7 @@ public class Scene1Dialogue : MonoBehaviour {
 
 		else if (primeInt == 50)
 		{
+			
 			Char1name.text = "";
 			Char1speech.text = "";
 			Char2name.text = "George";
@@ -227,6 +238,8 @@ public class Scene1Dialogue : MonoBehaviour {
 
 		else if (primeInt == 51)
 		{
+			ArtChar2b.SetActive(false);
+            ArtChar2a.SetActive(true);
 			Char1name.text = "";
 			Char1speech.text = "";
 			Char2name.text = "George";

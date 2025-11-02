@@ -126,7 +126,7 @@ public class Scene2aDialogue : MonoBehaviour {
                 }
                 else if (primeInt == 6)
                 {
-                        ArtChar1d.SetActive(false);
+                        ArtChar1a.SetActive(false);
                         ArtChar1c.SetActive(true);
                         Char1name.text = "";
                         Char1speech.text = "";
