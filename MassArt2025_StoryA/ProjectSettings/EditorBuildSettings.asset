@@ -9,12 +9,6 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: 78b366ee2788d4854992688d90b53687
   - enabled: 1
-    path: Assets/Scenes/EndLose.unity
-    guid: 0109755a295cf433fa2ae282ffe5ce9b
-  - enabled: 1
-    path: Assets/Scenes/EndWin.unity
-    guid: 848b7a46f7ced4d8e85e06497376b33f
-  - enabled: 1
     path: Assets/Scenes/Credits.unity
     guid: dd232612bcdaa4528b8fd2df9e04334e
   - enabled: 1
@@ -35,6 +29,24 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Scene3b.unity
     guid: 31776eccb25d965418f2dd668ae0808d
+  - enabled: 1
+    path: Assets/Scenes/Scene3c.unity
+    guid: 0c568920b62482647ba9dce50a991f76
+  - enabled: 1
+    path: Assets/Scenes/Scene5a.unity
+    guid: c0fee4be9c454fd42a7e10867d7d0b01
+  - enabled: 1
+    path: Assets/Scenes/Scene5b.unity
+    guid: f84ea52a6fcf1eb46a0332c2fce683e8
+  - enabled: 1
+    path: Assets/Scenes/Scene6.unity
+    guid: 82b764a0e6257384c965ff399ddd8709
+  - enabled: 1
+    path: Assets/Scenes/EndLose.unity
+    guid: 0109755a295cf433fa2ae282ffe5ce9b
+  - enabled: 1
+    path: Assets/Scenes/EndWin.unity
+    guid: 848b7a46f7ced4d8e85e06497376b33f
   - enabled: 1
     path: Assets/Scenes/EndLose_Sleep.unity
     guid: 3981f2c8900e54fb4b805ba473425c98
@@ -59,18 +71,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/EndWin_Purple.unity
     guid: 7ce7f32ac12b14d7ca9863de8538bd7d
-  - enabled: 1
-    path: Assets/Scenes/Scene3c.unity
-    guid: 0c568920b62482647ba9dce50a991f76
-  - enabled: 1
-    path: Assets/Scenes/Scene5a.unity
-    guid: c0fee4be9c454fd42a7e10867d7d0b01
-  - enabled: 1
-    path: Assets/Scenes/Scene5b.unity
-    guid: f84ea52a6fcf1eb46a0332c2fce683e8
-  - enabled: 1
-    path: Assets/Scenes/Scene6.unity
-    guid: 82b764a0e6257384c965ff399ddd8709
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

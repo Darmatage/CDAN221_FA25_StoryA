@@ -19,8 +19,9 @@ public class Scene3cDialogue : MonoBehaviour {
         public GameObject DialogueDisplay;
         public GameObject ArtChar2a;
         public GameObject ArtChar2b;
-        public GameObject ArtChar2c;
-        public GameObject ArtChar2d;
+	public GameObject ArtChar2c;
+		public GameObject ArtChar2d;
+        
         public GameObject ArtBG1;
         public GameObject Choice1a;
         public GameObject Choice1b;
@@ -31,12 +32,14 @@ public class Scene3cDialogue : MonoBehaviour {
         private bool allowSpace = true;
 
 // Set initial visibility. Added images or buttons need to also be SetActive(false);
-        void Start(){  
-             DialogueDisplay.SetActive(false);
+        void Start(){
+		DialogueDisplay.SetActive(false);
+			 
              ArtChar2a.SetActive(false);
              ArtChar2b.SetActive(false);
              ArtChar2c.SetActive(false);
-             ArtChar2d.SetActive(false);
+		ArtChar2d.SetActive(false);
+			 
              ArtBG1.SetActive(true);
              Choice1a.SetActive(false);
              Choice1b.SetActive(false);
@@ -71,7 +74,6 @@ public void Next(){
                 else if (primeInt == 2)
                 {
                         GameHandler.BeenToFoodCourt = true;
-                        ArtChar2a.SetActive(true);
                         DialogueDisplay.SetActive(true);
                         Char1name.text = "YOU";
                         Char1speech.text = "What should I eat...";
@@ -79,7 +81,8 @@ public void Next(){
                         Char2speech.text = "";
                 }
                 else if (primeInt == 3)
-                {
+		{
+					ArtChar2a.SetActive(true);
                         Char1name.text = "";
                         Char1speech.text = "";
                         Char2name.text = "Ranold McDanold";
@@ -93,7 +96,9 @@ public void Next(){
                         Char2speech.text = "";
                 }
                 else if (primeInt == 5)
-                {
+		{
+				ArtChar2a.SetActive(false);
+				ArtChar2b.SetActive(true);
                         Char1name.text = "";
                         Char1speech.text = "";
                         Char2name.text = "Ranold McDanold";
@@ -101,7 +106,8 @@ public void Next(){
                 }
                 else if (primeInt == 6)
                 {
-
+					ArtChar2b.SetActive(false);
+				ArtChar2c.SetActive(true);
                         Char1name.text = "";
                         Char1speech.text = "";
                         Char2name.text = "Randol McDanold";
@@ -112,7 +118,10 @@ public void Next(){
                         Choice1b.SetActive(true); // function Choice1bFunct()
                 }
                 else if (primeInt == 7)
-                {
+		{
+				ArtChar2a.SetActive(false);
+				ArtChar2b.SetActive(true);
+				ArtChar2c.SetActive(false);
                         Char1name.text = "";
                         Char1speech.text = "";
                         Char2name.text = "Ranold McDanold";
@@ -120,14 +129,21 @@ public void Next(){
                         primeInt = 8;
                 }
                 else if (primeInt == 8)
-                {
+		{
+				ArtChar2a.SetActive(false);
+				ArtChar2c.SetActive(false);
+				ArtChar2b.SetActive(false);
+				ArtChar2d.SetActive(true);
                         Char1name.text = "";
                         Char1speech.text = "";
                         Char2name.text = "Ranold McDanold";
                         Char2speech.text = "*Sad Honk, but he hands you a burger anyways*";
                 }
                 else if (primeInt == 9)
-                {
+                {ArtChar2a.SetActive(false);
+				ArtChar2b.SetActive(false);
+			ArtChar2c.SetActive(true);
+				ArtChar2d.SetActive(false);
                         Char1name.text = "";
                         Char1speech.text = "";
                         Char2name.text = "Ranold McDanold";
