@@ -73,7 +73,6 @@ public void Next(){
                 else if (primeInt == 2)
                 {
                         GameHandler.BeenToArtStore = true;
-                        ArtChar2a.SetActive(true);
                         DialogueDisplay.SetActive(true);
                         Char1name.text = "YOU";
                         Char1speech.text = "Oh hey, is that Mrs. Art Teacher?";
@@ -82,6 +81,7 @@ public void Next(){
                 }
                 else if (primeInt == 3)
                 {
+                        ArtChar2a.SetActive(true);
                         Char1name.text = "";
                         Char1speech.text = "";
                         Char2name.text = "Teacher";
@@ -96,6 +96,8 @@ public void Next(){
                 }
                 else if (primeInt == 5)
                 {
+                        ArtChar2a.SetActive(false);
+                        ArtChar2b.SetActive(true);
                         Char1name.text = "";
                         Char1speech.text = "";
                         Char2name.text = "Teacher";
@@ -105,115 +107,136 @@ public void Next(){
                         Choice1a.SetActive(true); // function Choice1aFunct()
                         Choice1b.SetActive(true); // function Choice1bFunct()
                 }
-                else if (primeInt == 6)
-                {
 
+//AFTER CHOICE 1a
+                else if (primeInt == 20)
+                {
+                        ArtChar2b.SetActive(false);
+                        ArtChar2d.SetActive(true);
                         Char1name.text = "";
                         Char1speech.text = "";
                         Char2name.text = "Teacher";
                         Char2speech.text = "Your class is a nightmare";
                 }
-                else if (primeInt == 7)
+                else if (primeInt == 21)
                 {
                         Char1name.text = "YOU";
                         Char1speech.text = "Oh. Well, Alex is alright, right?";
                         Char2name.text = "";
                         Char2speech.text = "";
-                        primeInt = 9;
                 }
-                else if (primeInt == 8)
+                else if (primeInt == 22)
                 {
+                        ArtChar2d.SetActive(false);
+                        ArtChar2c.SetActive(true);
                         Char1name.text = "";
                         Char1speech.text = "";
                         Char2name.text = "Teacher";
                         Char2speech.text = "Alex? You mean the person that ATE our class pet, Leafy? My beloved plant?";
                 }
-                else if (primeInt == 9)
+                else if (primeInt == 23)
                 {
                         Char1name.text = "YOU";
                         Char1speech.text = "Oh yeah.";
                         Char2name.text = "";
                         Char2speech.text = "";
                 }
-                else if (primeInt == 10)
+                else if (primeInt == 24)
                 {
                         Char1name.text = "YOU";
                         Char1speech.text = "I forgot they ate the succulent.";
                         Char2name.text = "";
                         Char2speech.text = "";
                 }
-                else if (primeInt == 11)
+                else if (primeInt == 25)
                 {
+                        ArtChar2c.SetActive(false);
+                        ArtChar2b.SetActive(true);
                         Char1name.text = "";
                         Char1speech.text = "";
                         Char2name.text = "Teacher";
                         Char2speech.text = "The succulent, had a name.";
                 }
-                else if (primeInt == 12)
+                else if (primeInt == 26)
                 {
                         Char1name.text = "YOU";
                         Char1speech.text = "Right, right, my bad. Sorry Mrs. Art Teacher.";
                         Char2name.text = "";
                         Char2speech.text = "";
-                        primeInt = 14;
+                        primeInt = 31;
                 }
-                else if (primeInt == 13)
+
+//AFTER CHOICE 1b       
+                else if (primeInt == 30)
                 {
+                        ArtChar2b.SetActive(false);
+                        ArtChar2d.SetActive(true);
                         Char1name.text = "";
                         Char1speech.text = "";
                         Char2name.text = "Teacher";
                         Char2speech.text = "*sigh*";
                 }
-                else if (primeInt == 14)
+                else if (primeInt == 31)
                 {
                         Char1name.text = "YOU";
                         Char1speech.text = "Life's goin' great for me at least! :)";
                         Char2name.text = "";
                         Char2speech.text = "";
                 }
-                else if (primeInt == 15)
+
+ //AFTER BOTH CHOICES:               
+                else if (primeInt == 32)
                 {
+                        ArtChar2a.SetActive(false);
+                        ArtChar2b.SetActive(true);
+                        ArtChar2c.SetActive(false);
+                        ArtChar2d.SetActive(false);
+
                         Char1name.text = "";
                         Char1speech.text = "";
                         Char2name.text = "Teacher";
                         Char2speech.text = "Well...what did you want?";
                 }
-                else if (primeInt == 15)
+                else if (primeInt == 33)
                 {
                         Char1name.text = "YOU";
                         Char1speech.text = "I wanted to ask, do you know what kind of gift Alex would want? It's their birthday tomorrow.";
                         Char2name.text = "";
                         Char2speech.text = "";
                 }
-                else if (primeInt == 16)
+                else if (primeInt == 34)
                 {
+                        ArtChar2b.SetActive(false);
+                        ArtChar2c.SetActive(true);
                         Char1name.text = "";
                         Char1speech.text = "";
                         Char2name.text = "Teacher";
                         Char2speech.text = "…you should know already! Just get Alex another class pet, they already ate the last one!";
                 }
-                else if (primeInt == 17)
+                else if (primeInt == 35)
                 {
                         Char1name.text = "YOU";
                         Char1speech.text = "Oh, uh,.. thanks!";
                         Char2name.text = "";
                         Char2speech.text = "";
                 }
-                else if (primeInt == 18)
+                else if (primeInt == 36)
                 {
                         Char1name.text = "YOU";
                         Char1speech.text = "I've got to finish shopping, so I guess that means I'll see you next class!";
                         Char2name.text = "";
                         Char2speech.text = "";
                 }
-                else if (primeInt == 19)
+                else if (primeInt == 37)
                 {
+                        ArtChar2c.SetActive(false);
+                        ArtChar2a.SetActive(true);
                         Char1name.text = "";
                         Char1speech.text = "";
                         Char2name.text = "Teacher";
                         Char2speech.text = "*muttering*";
                 }
-                else if (primeInt == 20)
+                else if (primeInt == 38)
                 {
                         Char1name.text = "";
                         Char1speech.text = " ";
@@ -238,7 +261,7 @@ public void Next(){
                 Char1speech.text = "You don't sound too sure?";
                 Char2name.text = "";
                 Char2speech.text = "";
-                primeInt = 5; // so hitting "NEXT" goes to primeInt==6!
+                primeInt = 19; // so hitting "NEXT" goes to primeInt==6!
                 Choice1a.SetActive(false);
                 Choice1b.SetActive(false);
                 nextButton.SetActive(true);
@@ -249,7 +272,7 @@ public void Next(){
                 Char1speech.text = "Haha yeah.";
                 Char2name.text = "";
                 Char2speech.text = "";
-                primeInt = 12; // so hitting "NEXT" goes to primeInt==13!
+                primeInt = 29; // so hitting "NEXT" goes to primeInt==13!
                 Choice1a.SetActive(false);
                 Choice1b.SetActive(false);
                 nextButton.SetActive(true);

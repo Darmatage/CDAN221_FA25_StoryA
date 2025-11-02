@@ -76,7 +76,7 @@ public void Next(){
                 }
                 else if (primeInt == 2)
                 {
-                        ArtChar2a.SetActive(true);
+                        
                         DialogueDisplay.SetActive(true);
                         GameHandler.BeenToPlantStore = true;
                         Char1name.text = "YOU";
@@ -86,6 +86,7 @@ public void Next(){
                 }
                 else if (primeInt == 3)
                 {
+                        ArtChar2a.SetActive(true);
                         Char1name.text = "";
                         Char1speech.text = "";
                         Char2name.text = "Clerk";
@@ -101,6 +102,8 @@ public void Next(){
                 }
                 else if (primeInt == 5)
                 {
+                        ArtChar2a.SetActive(false);
+                        ArtChar2c.SetActive(true);
                         Char1name.text = "";
                         Char1speech.text = "";
                         Char2name.text = "Clerk";
@@ -108,6 +111,8 @@ public void Next(){
                 }
                 else if (primeInt == 6)
                 {
+                        ArtChar2c.SetActive(false);
+                        ArtChar2a.SetActive(true);
                         //gameHandler.AddPlayerStat(1);
                         Char1name.text = "";
                         Char1speech.text = "";
@@ -123,6 +128,8 @@ public void Next(){
                 }
                 else if (primeInt == 8)
                 {
+                        ArtChar2a.SetActive(false);
+                        ArtChar2c.SetActive(true);
                         Char1name.text = "";
                         Char1speech.text = "";
                         Char2name.text = "Clerk";
@@ -137,6 +144,8 @@ public void Next(){
                 }
                 else if (primeInt == 10)
                 {
+                        ArtChar2c.SetActive(false);
+                        ArtChar2a.SetActive(true);
                         Char1name.text = "";
                         Char1speech.text = "";
                         Char2name.text = "Clerk";
@@ -144,6 +153,8 @@ public void Next(){
                 }
                 else if (primeInt == 11)
                 {
+                        ArtChar2a.SetActive(false);
+                        ArtChar2c.SetActive(true);
                         Char1name.text = "";
                         Char1speech.text = "";
                         Char2name.text = "Clerk";
@@ -154,8 +165,11 @@ public void Next(){
                         Choice1a.SetActive(true); // function Choice1aFunct()
                         Choice1b.SetActive(true); // function Choice1bFunct()
                 }
+//after choice 1
                 else if (primeInt == 12)
                 {
+                        ArtChar2c.SetActive(false);
+                        ArtChar2b.SetActive(true);
                         Char1name.text = "";
                         Char1speech.text = "";
                         Char2name.text = "Clerk";
@@ -169,8 +183,11 @@ public void Next(){
                         Char2speech.text = "";
                         primeInt = 15;
                 }
+//after choice 2
                 else if (primeInt == 14)
                 {
+                        ArtChar2c.SetActive(false);
+                        ArtChar2a.SetActive(true);
                         Char1name.text = "";
                         Char1speech.text = "";
                         Char2name.text = "Clerk";
@@ -183,47 +200,59 @@ public void Next(){
                         Char2name.text = "";
                         Char2speech.text = "";
                 }
+//after both
                 else if (primeInt == 16)
                 {
+                        ArtChar2a.SetActive(false);
+                        ArtChar2b.SetActive(true);
+                        ArtChar2c.SetActive(false);
                         Char1name.text = "";
                         Char1speech.text = "";
                         Char2name.text = "Clerk";
                         Char2speech.text = "ehehee";
                 }
-                else if (primeInt == 15)
+                else if (primeInt == 17)
                 {
                         Char1name.text = "YOU";
                         Char1speech.text = "Can I please just buy the succulent?";
                         Char2name.text = "";
                         Char2speech.text = "";
                 }
-                else if (primeInt == 16)
+                else if (primeInt == 18)
                 {
                         Char1name.text = "";
                         Char1speech.text = "";
                         Char2name.text = "Clerk";
                         Char2speech.text = "mm m mmmm!";
                 }
-                else if (primeInt == 17)
+                else if (primeInt == 19)
                 {
                         Char1name.text = "YOU";
                         Char1speech.text = " ";
                         Char2name.text = "";
                         Char2speech.text = "";
+                        // Turn off the "Next" button, turn on "Choice" buttons
                         nextButton.SetActive(false);
                         allowSpace = false;
                         Choice2a.SetActive(true);
                         Choice2b.SetActive(true);
                         Choice2c.SetActive(true);
                 }
-                else if (primeInt == 18)
+                /*
+                else if (primeInt == 20)
                 {
+                        Char1name.text = "YOU";
+                        Char1speech.text = " ";
+                        Char2name.text = "";
+                        Char2speech.text = "";
+                        // Turn off the "Next" button, turn on "Choice" buttons
                         nextButton.SetActive(false);
                         allowSpace = false;
                         NextScene2Button.SetActive(true);
                         NextScene1Button.SetActive(true);
                         NextScene3Button.SetActive(true);
                 }
+                */
 
 
       //Please do NOT delete this final bracket that ends the Next() function:

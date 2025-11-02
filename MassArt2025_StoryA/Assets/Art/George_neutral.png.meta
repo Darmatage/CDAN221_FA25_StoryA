@@ -1,10 +1,16 @@
 fileFormatVersion: 2
-guid: 820cc5b76528dcc4dbd0afd3550455ee
+guid: cce36656e50b2e241a907af553b892be
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -958678616780321126
-    second: alex_neutral_0
+      213: 600450533362628074
+    second: George_neutral_0
+  - first:
+      213: 8956623309603585693
+    second: George_neutral_1
+  - first:
+      213: 5842074419974791266
+    second: George_neutral_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +119,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: alex_neutral_0
+      name: George_neutral_0
       rect:
         serializedVersion: 2
-        x: 690
+        x: 699
         y: 0
-        width: 512
-        height: 608
+        width: 525
+        height: 670
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +134,52 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a9ecb0990e612b2f0800000000000000
-      internalID: -958678616780321126
+      spriteID: ae5f54a249a355800800000000000000
+      internalID: 600450533362628074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: George_neutral_1
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 645
+        width: 42
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9eb7e322715c4c70800000000000000
+      internalID: 8956623309603585693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: George_neutral_2
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 364
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2606ef97bb7331150800000000000000
+      internalID: 5842074419974791266
       vertices: []
       indices: 
       edges: []
@@ -148,7 +198,9 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      alex_neutral_0: -958678616780321126
+      George_neutral_0: 600450533362628074
+      George_neutral_1: 8956623309603585693
+      George_neutral_2: 5842074419974791266
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

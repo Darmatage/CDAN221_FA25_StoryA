@@ -18,9 +18,9 @@ public class Scene2aDialogue : MonoBehaviour {
        //public TMP_Text Char3speech;
         public GameObject DialogueDisplay;
         public GameObject ArtChar1a;
-       //public GameObject ArtChar1b;
-       //public GameObject ArtChar1c;
-       //public GameObject ArtChar2;
+       public GameObject ArtChar1b;
+       public GameObject ArtChar1c;
+       public GameObject ArtChar1d;
         public GameObject ArtBG1;
         public GameObject Choice1a;
         public GameObject Choice1b;
@@ -38,6 +38,9 @@ public class Scene2aDialogue : MonoBehaviour {
         void Start(){  
              DialogueDisplay.SetActive(false);
              ArtChar1a.SetActive(false);
+             ArtChar1b.SetActive(false);
+             ArtChar1c.SetActive(false);
+             ArtChar1d.SetActive(false);
              ArtBG1.SetActive(true);
              Choice1a.SetActive(false);
              Choice1b.SetActive(false);
@@ -87,7 +90,7 @@ public class Scene2aDialogue : MonoBehaviour {
                         else if (GameHandler.BeenToMall == false)
                         {
                                 GameHandler.BeenToMall = true;
-                                ArtChar1a.SetActive(true);
+                                ArtChar1b.SetActive(true);
                                 DialogueDisplay.SetActive(true);
                                 Char1name.text = "";
                                 Char1speech.text = "";
@@ -105,6 +108,8 @@ public class Scene2aDialogue : MonoBehaviour {
                 }
                 else if (primeInt == 4)
                 {
+                        ArtChar1b.SetActive(false);
+                        ArtChar1d.SetActive(true);
                         Char1name.text = "";
                         Char1speech.text = "";
                         Char2name.text = "George";
@@ -112,6 +117,8 @@ public class Scene2aDialogue : MonoBehaviour {
                 }
                 else if (primeInt == 5)
                 {
+                        ArtChar1d.SetActive(false);
+                        ArtChar1a.SetActive(true);
                         Char1name.text = "";
                         Char1speech.text = "";
                         Char2name.text = "George";
@@ -119,6 +126,8 @@ public class Scene2aDialogue : MonoBehaviour {
                 }
                 else if (primeInt == 6)
                 {
+                        ArtChar1d.SetActive(false);
+                        ArtChar1c.SetActive(true);
                         Char1name.text = "";
                         Char1speech.text = "";
                         Char2name.text = "George";
@@ -128,25 +137,40 @@ public class Scene2aDialogue : MonoBehaviour {
                         Choice1a.SetActive(true); // function Choice1aFunct()
                         Choice1b.SetActive(true); // function Choice1bFunct()
                 }
+
+
+
+   //choice 1a 
                 else if (primeInt == 7)
                 {
+                        ArtChar1c.SetActive(false);
+                        ArtChar1a.SetActive(true);
                         Char1name.text = "";
                         Char1speech.text = "";
                         Char2name.text = "George";
                         Char2speech.text = "Well, you're being really rude today.";
                         primeInt = 8;
                 }
+
+    //choice 1b                
                 else if (primeInt == 8)
                 {
+                         ArtChar1c.SetActive(false);
+                        ArtChar1b.SetActive(true);
                         Char1name.text = "";
                         Char1speech.text = "";
                         Char2name.text = "George";
                         Char2speech.text = "Right?! I knew you would agree!";
                         // Turn off the "Next" button, turn on "Choice" buttons
                 }
+   //after both choices
                 else if (primeInt == 9)
                 {
                         //gameHandler.AddPlayerStat(1);
+                         ArtChar1a.SetActive(false);
+                        ArtChar1b.SetActive(false);
+                         ArtChar1d.SetActive(true);
+                        ArtChar1c.SetActive(false);
                         Char1name.text = "";
                         Char1speech.text = "";
                         Char2name.text = "George";
@@ -161,6 +185,8 @@ public class Scene2aDialogue : MonoBehaviour {
                 }
                 else if (primeInt == 11)
                 {
+                         ArtChar1d.SetActive(false);
+                        ArtChar1a.SetActive(true);
                         Char1name.text = "";
                         Char1speech.text = "";
                         Char2name.text = "George";
@@ -168,6 +194,8 @@ public class Scene2aDialogue : MonoBehaviour {
                 }
                 else if (primeInt == 12)
                 {
+                         ArtChar1a.SetActive(false);
+                        ArtChar1c.SetActive(true);
                         Char1name.text = "";
                         Char1speech.text = "";
                         Char2name.text = "George";

@@ -1,10 +1,16 @@
 fileFormatVersion: 2
-guid: 820cc5b76528dcc4dbd0afd3550455ee
+guid: b1d7005255aefb8418b90a9ae2ded09c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -958678616780321126
-    second: alex_neutral_0
+      213: -4464109896398799153
+    second: George_Happy_0
+  - first:
+      213: -2671015372028845065
+    second: George_Happy_1
+  - first:
+      213: 1333721925322926212
+    second: George_Happy_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +119,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: alex_neutral_0
+      name: George_Happy_0
       rect:
         serializedVersion: 2
-        x: 690
+        x: 699
         y: 0
-        width: 512
-        height: 608
+        width: 525
+        height: 670
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +134,52 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a9ecb0990e612b2f0800000000000000
-      internalID: -958678616780321126
+      spriteID: fcef7da73bb4c02c0800000000000000
+      internalID: -4464109896398799153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: George_Happy_1
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 645
+        width: 42
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f3ec98bba5aeead0800000000000000
+      internalID: -2671015372028845065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: George_Happy_2
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 364
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 488e5045605528210800000000000000
+      internalID: 1333721925322926212
       vertices: []
       indices: 
       edges: []
@@ -148,7 +198,9 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      alex_neutral_0: -958678616780321126
+      George_Happy_0: -4464109896398799153
+      George_Happy_1: -2671015372028845065
+      George_Happy_2: 1333721925322926212
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

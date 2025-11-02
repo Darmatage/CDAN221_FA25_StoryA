@@ -21,6 +21,7 @@ public class Scene6Dialogue : MonoBehaviour {
         public GameObject ArtChar2b;
         public GameObject ArtChar2c;
         public GameObject ArtChar2d;
+         public GameObject ArtChar2e; //books
         public GameObject ArtBG1;
         public GameObject Choice1a;
         public GameObject Choice1b;
@@ -42,6 +43,7 @@ public class Scene6Dialogue : MonoBehaviour {
                 ArtChar2b.SetActive(false);
                 ArtChar2c.SetActive(false);
                 ArtChar2d.SetActive(false);
+                ArtChar2e.SetActive(false);
                 ArtBG1.SetActive(true);
                 Choice1a.SetActive(false);
                 Choice1b.SetActive(false);
@@ -80,7 +82,7 @@ public class Scene6Dialogue : MonoBehaviour {
                 }
                 else if (primeInt == 2)
                 {
-                        ArtChar2a.SetActive(true);
+                        ArtChar2d.SetActive(true);
                         DialogueDisplay.SetActive(true);
                         Char1name.text = "";
                         Char1speech.text = "";
@@ -100,6 +102,7 @@ public class Scene6Dialogue : MonoBehaviour {
                         Choice1a.SetActive(true); // function Choice1aFunct() Party?
                         Choice1b.SetActive(true); // function Choice1bFunct() Nice Day?
                 }
+//choice 1a
                 else if (primeInt == 4)
                 {
                         Char1name.text = "";
@@ -115,6 +118,8 @@ public class Scene6Dialogue : MonoBehaviour {
                         Char2speech.text = "";
                         primeInt = 7;
                 }
+        
+//choice 1b
                 else if (primeInt == 6)
                 {
                         Char1name.text = "";
@@ -167,15 +172,19 @@ public class Scene6Dialogue : MonoBehaviour {
                                 primeInt = 68;
                         }
                 }
+
+ //give suculent:               
                 else if (primeInt == 9)
                 {
                         Char1name.text = "YOU";
-                        Char1speech.text = "Anywhoooo, thought I'd give the birthday guest a little present!";
+                        Char1speech.text = "Anywhoooo, thought I'd give our birthday buddy a little present!";
                         Char2name.text = "";
                         Char2speech.text = "";
                 }
                 else if (primeInt == 10)
                 {
+                        ArtChar2d.SetActive(false);
+                        ArtChar2a.SetActive(true);
                         Char1name.text = "";
                         Char1speech.text = "";
                         Char2name.text = "Alex";
@@ -215,6 +224,8 @@ public class Scene6Dialogue : MonoBehaviour {
                         NextScene1Button.SetActive(true);
                         primeInt = 100; //REDUNDANT, ENDING
                 }
+
+//give candle
                 else if (primeInt == 19)
                 {
                         Char1name.text = "YOU";
@@ -231,6 +242,7 @@ public class Scene6Dialogue : MonoBehaviour {
                 }
                 else if (primeInt == 21)
                 {
+                       
                         Char1name.text = "YOU";
                         Char1speech.text = "Of course! How could I not!";
                         Char2name.text = "";
@@ -238,6 +250,8 @@ public class Scene6Dialogue : MonoBehaviour {
                 }
                 else if (primeInt == 22)
                 {
+                        ArtChar2d.SetActive(false);
+                        ArtChar2a.SetActive(true);
                         Char1name.text = "YOU";
                         Char1speech.text = "Here you go!";
                         Char2name.text = "";
@@ -245,6 +259,8 @@ public class Scene6Dialogue : MonoBehaviour {
                 }
                 else if (primeInt == 23)
                 {
+                        ArtChar2a.SetActive(false);
+                        ArtChar2b.SetActive(true);
                         Char1name.text = "";
                         Char1speech.text = "";
                         Char2name.text = "Alex";
@@ -261,6 +277,8 @@ public class Scene6Dialogue : MonoBehaviour {
                         NextScene2Button.SetActive(true);
                         primeInt = 100; // REDUNDANT ENDING
                 }
+
+//give no gift
                 else if (primeInt == 29)
                 {
                         Char1name.text = "YOU";
@@ -270,6 +288,8 @@ public class Scene6Dialogue : MonoBehaviour {
                 }
                 else if (primeInt == 30)
                 {
+                        ArtChar2d.SetActive(false);
+                        ArtChar2a.SetActive(true);
                         Char1name.text = "";
                         Char1speech.text = "";
                         Char2name.text = "Alex";
@@ -298,6 +318,8 @@ public class Scene6Dialogue : MonoBehaviour {
                 }
                 else if (primeInt == 34)
                 {
+                         ArtChar2a.SetActive(false);
+                        ArtChar2b.SetActive(true);
                         Char1name.text = "";
                         Char1speech.text = "";
                         Char2name.text = "Alex";
@@ -328,6 +350,8 @@ public class Scene6Dialogue : MonoBehaviour {
                         NextScene3Button.SetActive(true);
                         primeInt = 100; //REDUNDANT, ENDING
                 }
+
+//give purple notebook
                 else if (primeInt == 39)
                 {
                         Char1name.text = "YOU";
@@ -351,6 +375,12 @@ public class Scene6Dialogue : MonoBehaviour {
                 }
                 else if (primeInt == 42)
                 {
+                        ArtChar2a.SetActive(false);
+                         ArtChar2b.SetActive(false);
+                         ArtChar2c.SetActive(false);
+                         ArtChar2d.SetActive(true); //neutral
+                         ArtChar2e.SetActive(false);
+
                         Char1name.text = "";
                         Char1speech.text = "";
                         Char2name.text = "Alex";
@@ -365,6 +395,8 @@ public class Scene6Dialogue : MonoBehaviour {
                 }
                 else if (primeInt == 44)
                 {
+                        ArtChar2d.SetActive(false);
+                         ArtChar2e.SetActive(true);
                         Char1name.text = "";
                         Char1speech.text = "";
                         Char2name.text = "Alex";
@@ -374,6 +406,8 @@ public class Scene6Dialogue : MonoBehaviour {
                         NextScene4Button.SetActive(true);
                         primeInt = 100; //REDUNDANT, ENDING
                 }
+
+//give burger
                 else if (primeInt == 49)
                 {
                         Char1name.text = "YOU";
@@ -383,6 +417,8 @@ public class Scene6Dialogue : MonoBehaviour {
                 }
                 else if (primeInt == 50)
                 {
+                         ArtChar2d.SetActive(false);
+                        ArtChar2a.SetActive(true);
                         Char1name.text = "";
                         Char1speech.text = "";
                         Char2name.text = "Alex";
@@ -404,6 +440,8 @@ public class Scene6Dialogue : MonoBehaviour {
                 }
                 else if (primeInt == 53)
                 {
+                        ArtChar2a.SetActive(false);
+                        ArtChar2b.SetActive(true);
                         Char1name.text = "";
                         Char1speech.text = "";
                         Char2name.text = "Alex";
@@ -420,6 +458,7 @@ public class Scene6Dialogue : MonoBehaviour {
                         NextScene5Button.SetActive(true);
                         primeInt = 100; // REDUNDANT, ENDING
                 }
+//give 2 chair
                 else if (primeInt == 59)
                 {
                         Char1name.text = "YOU";
@@ -436,6 +475,8 @@ public class Scene6Dialogue : MonoBehaviour {
                 }
                 else if (primeInt == 61)
                 {
+                        ArtChar2d.SetActive(false);
+                        ArtChar2a.SetActive(true);
                         Char1name.text = "";
                         Char1speech.text = "";
                         Char2name.text = "Alex";
@@ -443,6 +484,8 @@ public class Scene6Dialogue : MonoBehaviour {
                 }
                 else if (primeInt == 62)
                 {
+                        ArtChar2a.SetActive(false);
+                        ArtChar2b.SetActive(true);
                         Char1name.text = "";
                         Char1speech.text = "";
                         Char2name.text = "Alex";
@@ -464,6 +507,8 @@ public class Scene6Dialogue : MonoBehaviour {
                 }
                 else if (primeInt == 65)
                 {
+                        ArtChar2b.SetActive(false);
+                        ArtChar2a.SetActive(true);
                         Char1name.text = "";
                         Char1speech.text = "";
                         Char2name.text = "Alex";
@@ -473,6 +518,8 @@ public class Scene6Dialogue : MonoBehaviour {
                         NextScene6Button.SetActive(true);
                         primeInt = 100;
                 }
+        
+//give 1 chair
                 else if (primeInt == 69)
                 {
                         Char1name.text = "YOU";
@@ -482,6 +529,8 @@ public class Scene6Dialogue : MonoBehaviour {
                 }
                 else if (primeInt == 70)
                 {
+                        ArtChar2d.SetActive(false);
+                        ArtChar2a.SetActive(true);
                         Char1name.text = "";
                         Char1speech.text = "";
                         Char2name.text = "Alex";
@@ -503,6 +552,8 @@ public class Scene6Dialogue : MonoBehaviour {
                 }
                 else if (primeInt == 73)
                 {
+                        ArtChar2a.SetActive(false);
+                        ArtChar2b.SetActive(true);
                         Char1name.text = "";
                         Char1speech.text = "";
                         Char2name.text = "Alex";
