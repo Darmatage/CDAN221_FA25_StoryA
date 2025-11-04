@@ -112,7 +112,7 @@ public class Scene6Dialogue : MonoBehaviour {
                         Char1name.text = "";
                         Char1speech.text = "";
                         Char2name.text = "Alex";
-                        Char2speech.text = "Great! I think? Have fun on your way here?";
+                        Char2speech.text = "Great! I think? \nHave fun on your way here?";
                 }
                 else if (primeInt == 5)
                 {
@@ -131,7 +131,7 @@ public class Scene6Dialogue : MonoBehaviour {
                         Char1name.text = "";
                         Char1speech.text = "";
                         Char2name.text = "Alex";
-                        Char2speech.text = "Yeah, of course! I'm glad you came, bud.";
+                        Char2speech.text = "Yeah, of course! \nI'm glad you came, bud.";
                 }
                 else if (primeInt == 7)
                 {
@@ -212,7 +212,7 @@ public class Scene6Dialogue : MonoBehaviour {
                         Char1name.text = "";
                         Char1speech.text = "";
                         Char2name.text = "Alex";
-                        Char2speech.text = "The succulent!! I've waited so long for another one...poor leafy..";
+                        Char2speech.text = "The succulent!! \nI've waited so long for another one...poor leafy..";
                 }
                 else if (primeInt == 13)
                 {
